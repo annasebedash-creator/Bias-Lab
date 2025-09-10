@@ -1,0 +1,2769 @@
+
+[
+  {
+    "id": "scn-001",
+    "title": "The Headlines Trap",
+    "text": "After a week of heavy media coverage about shark attacks, you cancel a beach trip despite statistics showing low risk.",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Availability heuristic",
+        "is_correct": true,
+        "reason": "Recent vivid coverage skews risk perception."
+      },
+      {
+        "id": "o2",
+        "text": "Ad hominem",
+        "is_correct": false,
+        "reason": "No personal attack involved."
+      },
+      {
+        "id": "o3",
+        "text": "False cause",
+        "is_correct": false,
+        "reason": "No causal link is claimed—just biased probability judgment."
+      }
+    ],
+    "answers": ["availability_heuristic"],
+    "difficulty": 1,
+    "explainers": {
+      "short": "Vividness & recency distort probability judgments.",
+      "long": "Media salience increases accessibility in memory, which people misuse as a proxy for frequency."
+    }
+  },
+  {
+    "id": "scn-002",
+    "title": "The Stubborn Project",
+    "text": "A team keeps funding a failing app because they’ve already spent $200k building it.",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sunk cost fallacy",
+        "is_correct": true,
+        "reason": "Past costs are irrecoverable and shouldn’t justify continuation."
+      },
+      {
+        "id": "o2",
+        "text": "Confirmation bias",
+        "is_correct": false,
+        "reason": "Though it can co-occur, the core issue is sunk cost."
+      },
+      {
+        "id": "o3",
+        "text": "Bandwagon effect",
+        "is_correct": false,
+        "reason": "No popularity pressure is present."
+      }
+    ],
+    "answers": ["sunk_cost_fallacy"],
+    "difficulty": 2,
+    "explainers": {
+      "short": "Prior investment biases continuation decisions.",
+      "long": "Escalation of commitment is robust across lab and field; rational choice should ignore sunk costs."
+    }
+  },
+    {
+      "id": "scn-003",
+      "title": "Comment Section ‘Debate’",
+      "text": "Someone replies to a climate paper by calling the author a 'fraud' instead of addressing the methods.",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Ad hominem",
+          "is_correct": true,
+          "reason": "Attack targets the person, not the argument."
+        },
+        {
+          "id": "o2",
+          "text": "Availability heuristic",
+          "is_correct": false,
+          "reason": "Not about recall or salience."
+        },
+        {
+          "id": "o3",
+          "text": "Straw man",
+          "is_correct": false,
+          "reason": "No distortion of the claim; it’s a direct attack on character."
+        }
+      ],
+      "answers": ["ad_hominem"],
+      "difficulty": 1,
+      "explainers": {
+        "short": "Person-focused attack ≠ argument refutation.",
+        "long": "Ad hominem derails argument quality and is fallacious when used in place of relevant criticism."
+      }
+    },
+    {
+      "id": "scn-004",
+      "title": "Reading What You Already Believe",
+      "text": "You only subscribe to newsletters that match your policy views and dismiss others as biased.",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Confirmation bias",
+          "is_correct": true,
+          "reason": "Selective exposure to confirming information."
+        },
+        {
+          "id": "o2",
+          "text": "Sunk cost fallacy",
+          "is_correct": false,
+          "reason": "No past-investment logic present."
+        },
+        {
+          "id": "o3",
+          "text": "Appeal to tradition",
+          "is_correct": false,
+          "reason": "No reliance on tradition; this is about selective confirmation."
+        }
+      ],
+      "answers": ["confirmation_bias"],
+      "difficulty": 1,
+      "explainers": {
+        "short": "Selective exposure reinforces priors.",
+        "long": "People seek attitude-consistent information and counter-argue disconfirming evidence."
+      }
+    },
+    {
+      "id": "scn-005",
+      "title": "The Celebrity Doctor",
+      "text": "An influencer without medical training recommends a supplement, and people buy it because they like the influencer's movies.",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Appeal to authority",
+          "is_correct": false,
+          "reason": "The influencer is not an authority; this is an appeal to irrelevant authority."
+        },
+        {
+          "id": "o2",
+          "text": "Appeal to irrelevant authority",
+          "is_correct": true,
+          "reason": "Expertise in acting doesn’t translate to medical advice credibility."
+        },
+        {
+          "id": "o3",
+          "text": "Appeal to emotion",
+          "is_correct": false,
+          "reason": "No emotional manipulation is used here."
+        }
+      ],
+      "answers": ["appeal_to_irrelevant_authority"],
+      "difficulty": 1,
+      "explainers": {
+        "short": "Expertise must be domain-relevant.",
+        "long": "Appeals to irrelevant authority leverage perceived expertise from unrelated domains to create unwarranted persuasion."
+      }
+    },
+    {
+      "id": "scn-006",
+      "title": "The Snowy Week",
+      "text": "During a cold snap, a neighbor claims climate change can't be real because 'it's freezing right now.'",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Hasty generalization",
+          "is_correct": false,
+          "reason": "Though related, the core error is misunderstanding weather vs. climate."
+        },
+        {
+          "id": "o2",
+          "text": "Anecdotal fallacy",
+          "is_correct": true,
+          "reason": "They use a single personal experience as proof against large-scale trends."
+        },
+        {
+          "id": "o3",
+          "text": "False dilemma",
+          "is_correct": false,
+          "reason": "No binary framing; it’s anecdotal evidence misuse."
+        }
+      ],
+      "answers": ["anecdotal_fallacy"],
+      "difficulty": 1,
+      "explainers": {
+        "short": "Single events ≠ representative evidence.",
+        "long": "The anecdotal fallacy treats isolated incidents as decisive evidence while ignoring aggregated data."
+      }
+    },
+    {
+      "id": "scn-007",
+      "title": "The Lucky Numbers",
+      "text": "After winning twice in a row, a lottery player believes they are 'on a roll' and buys more tickets.",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Gambler’s fallacy",
+          "is_correct": false,
+          "reason": "Actually, this is the opposite — believing success will continue is the hot-hand fallacy."
+        },
+        {
+          "id": "o2",
+          "text": "Hot-hand fallacy",
+          "is_correct": true,
+          "reason": "They assume past random wins predict future random wins."
+        },
+        {
+          "id": "o3",
+          "text": "Appeal to popularity",
+          "is_correct": false,
+          "reason": "No social conformity pressure is involved."
+        }
+      ],
+      "answers": ["hot_hand_fallacy"],
+      "difficulty": 2,
+      "explainers": {
+        "short": "Misbelief that streaks signal future success.",
+        "long": "The hot-hand fallacy projects a pattern onto independent random events, assuming momentum where none exists."
+      }
+    },
+      {
+        "id": "scn-008",
+        "title": "The Safety Test",
+        "text": "A company claims its self-driving car is safer because '95% of crashes happen with human drivers.'",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Base rate neglect",
+            "is_correct": true,
+            "reason": "They ignore that nearly all current cars are human-driven."
+          },
+          {
+            "id": "o2",
+            "text": "Appeal to popularity",
+            "is_correct": false,
+            "reason": "No popularity claim is made."
+          },
+          {
+            "id": "o3",
+            "text": "False cause",
+            "is_correct": false,
+            "reason": "No direct causation is being inferred."
+          }
+        ],
+        "answers": ["base_rate_neglect"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Omitting base rates distorts probabilities.",
+          "long": "Base rate neglect occurs when people ignore the underlying prevalence of a category in interpreting statistics."
+        }
+      },
+      {
+        "id": "scn-009",
+        "title": "The Miracle Cure",
+        "text": "An ad claims a herbal pill 'works for everyone' because 'thousands have posted positive reviews.'",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Bandwagon effect",
+            "is_correct": false,
+            "reason": "Popularity is implied, but the argument focuses on testimonials as proof."
+          },
+          {
+            "id": "o2",
+            "text": "Anecdotal fallacy",
+            "is_correct": true,
+            "reason": "Using individual stories as proof of universal efficacy."
+          },
+          {
+            "id": "o3",
+            "text": "Appeal to tradition",
+            "is_correct": false,
+            "reason": "No reliance on long-standing practice."
+          }
+        ],
+        "answers": ["anecdotal_fallacy"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Testimonials aren’t scientific evidence.",
+          "long": "Even large numbers of anecdotes do not substitute for controlled, representative data."
+        }
+      },
+      {
+        "id": "scn-010",
+        "title": "The Perfect Politician",
+        "text": "During a debate, a candidate dismisses all criticism of their policy by saying 'You’ve made mistakes too.'",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Tu quoque",
+            "is_correct": true,
+            "reason": "This is a 'you too' deflection rather than addressing the point."
+          },
+          {
+            "id": "o2",
+            "text": "Straw man",
+            "is_correct": false,
+            "reason": "They didn’t misrepresent the argument, they avoided it."
+          },
+          {
+            "id": "o3",
+            "text": "Red herring",
+            "is_correct": false,
+            "reason": "The topic isn’t being shifted, just deflected."
+          }
+        ],
+        "answers": ["tu_quoque"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "Avoids critique by accusing critic of same flaw.",
+          "long": "Tu quoque is an evasion tactic that focuses on the critic’s faults rather than engaging with the criticism."
+        }
+      },
+      {
+        "id": "scn-011",
+        "title": "Two Options Only",
+        "text": "A columnist argues, “Either we cut all arts funding or the economy will collapse.”",
+        "options": [
+          {
+            "id": "o1",
+            "text": "False dilemma",
+            "is_correct": true,
+            "reason": "Frames the issue as only two options when more exist."
+          },
+          {
+            "id": "o2",
+            "text": "Red herring",
+            "is_correct": false,
+            "reason": "No topic diversion; it narrows choices."
+          },
+          {
+            "id": "o3",
+            "text": "Slippery slope",
+            "is_correct": false,
+            "reason": "No chain of disastrous consequences is invoked."
+          }
+        ],
+        "answers": ["false_dilemma"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "Artificially limits choices to force a conclusion.",
+          "long": "False dilemmas present only two options when multiple alternatives or compromises may exist."
+        }
+      },
+      {
+        "id": "scn-012",
+        "title": "Because It’s Always Been Done",
+        "text": "A manager rejects a new workflow, saying, “We’ve always done it this way, so it’s best.”",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Appeal to tradition",
+            "is_correct": true,
+            "reason": "Uses custom as a reason instead of evidence."
+          },
+          {
+            "id": "o2",
+            "text": "Appeal to emotion",
+            "is_correct": false,
+            "reason": "No emotional manipulation here."
+          },
+          {
+            "id": "o3",
+            "text": "Circular reasoning",
+            "is_correct": false,
+            "reason": "No repetition of the conclusion in the premise."
+          }
+        ],
+        "answers": ["appeal_to_tradition"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "Custom ≠ evidence of optimality.",
+          "long": "Appeals to tradition substitute longevity for justification, blocking independent evaluation."
+        }
+      },
+      {
+        "id": "scn-013",
+        "title": "If This, Then Doom",
+        "text": "A pundit claims, “If we pass this minor regulation, it’ll eventually destroy the whole industry.”",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Slippery slope",
+            "is_correct": true,
+            "reason": "Predicts a dramatic chain without showing necessity."
+          },
+          {
+            "id": "o2",
+            "text": "Post hoc",
+            "is_correct": false,
+            "reason": "Not merely sequence; it’s an inevitability claim."
+          },
+          {
+            "id": "o3",
+            "text": "Appeal to emotion",
+            "is_correct": false,
+            "reason": "No attempt to manipulate feelings."
+          }
+        ],
+        "answers": ["slippery_slope"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Claims inevitability without causal proof.",
+          "long": "Slippery slopes assert catastrophic chains without demonstrating mechanisms or probabilities."
+        }
+      },
+      {
+        "id": "scn-014",
+        "title": "That’s Not What I Said",
+        "text": "A proposal to reduce waste is attacked as 'wanting to ban consumer freedom.'",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Straw man",
+            "is_correct": true,
+            "reason": "Misrepresents the original position as extreme."
+          },
+          {
+            "id": "o2",
+            "text": "Ad hominem",
+            "is_correct": false,
+            "reason": "No personal attack."
+          },
+          {
+            "id": "o3",
+            "text": "False equivalence",
+            "is_correct": false,
+            "reason": "Not comparing two unlike things as equal."
+          }
+        ],
+        "answers": ["straw_man"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Refutes a distorted version of the claim.",
+          "long": "Straw-manning replaces the real argument with a weaker caricature to make rebuttal easier."
+        }
+      },
+        {
+          "id": "scn-015",
+          "title": "Picking Only the Good News",
+          "text": "A supplement company advertises that '3 studies found our product effective,' leaving out 12 that found no effect.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cherry picking",
+              "is_correct": true,
+              "reason": "They selectively report supporting data only."
+            },
+            {
+              "id": "o2",
+              "text": "Appeal to authority",
+              "is_correct": false,
+              "reason": "No reliance on expertise here."
+            },
+            {
+              "id": "o3",
+              "text": "Slippery slope",
+              "is_correct": false,
+              "reason": "No inevitable catastrophe predicted."
+            }
+          ],
+          "answers": ["cherry_picking"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Only favorable evidence is cited.",
+            "long": "Cherry picking is a form of selection bias where only confirming data is highlighted."
+          }
+        },
+        {
+          "id": "scn-016",
+          "title": "After the Rooster Crows",
+          "text": "A farmer says, 'The rooster crows, then the sun rises. Clearly, the rooster makes the sun rise.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Post hoc (false cause)",
+              "is_correct": true,
+              "reason": "Assumes causation from sequence of events."
+            },
+            {
+              "id": "o2",
+              "text": "False equivalence",
+              "is_correct": false,
+              "reason": "Not comparing two unlike things."
+            },
+            {
+              "id": "o3",
+              "text": "Bandwagon effect",
+              "is_correct": false,
+              "reason": "No appeal to popularity."
+            }
+          ],
+          "answers": ["post_hoc_false_cause"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Mistakes correlation for causation.",
+            "long": "Post hoc reasoning assumes A caused B just because A came before B."
+          }
+        },
+        {
+          "id": "scn-017",
+          "title": "Prove Me Wrong",
+          "text": "A psychic claims, 'I can talk to the dead. Prove I can’t.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Burden of proof",
+              "is_correct": true,
+              "reason": "Places the responsibility of disproof on the skeptic."
+            },
+            {
+              "id": "o2",
+              "text": "Appeal to tradition",
+              "is_correct": false,
+              "reason": "No reference to longstanding practice."
+            },
+            {
+              "id": "o3",
+              "text": "Circular reasoning",
+              "is_correct": false,
+              "reason": "Doesn’t repeat the conclusion as a premise."
+            }
+          ],
+          "answers": ["burden_of_proof"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Responsibility lies on the claimant, not the skeptic.",
+            "long": "Improperly shifting the burden of proof makes unfalsifiable claims appear valid."
+          }
+        },
+        {
+          "id": "scn-018",
+          "title": "Pulling the Heartstrings",
+          "text": "A politician says, 'If you don’t vote for me, think of the children who will suffer.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Appeal to emotion",
+              "is_correct": true,
+              "reason": "Relies on pity and fear instead of evidence."
+            },
+            {
+              "id": "o2",
+              "text": "Straw man",
+              "is_correct": false,
+              "reason": "No distortion of an argument."
+            },
+            {
+              "id": "o3",
+              "text": "Red herring",
+              "is_correct": false,
+              "reason": "Not an irrelevant distraction, but an emotional one."
+            }
+          ],
+          "answers": ["appeal_to_emotion"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Emotion replaces argument.",
+            "long": "Appeals to emotion manipulate feelings to bypass rational evaluation."
+          }
+        },
+        {
+          "id": "scn-019",
+          "title": "Changing the Subject",
+          "text": "When asked about rising crime, a candidate replies, 'Well, unemployment is also an issue.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Red herring",
+              "is_correct": true,
+              "reason": "Diverts the discussion to a different issue."
+            },
+            {
+              "id": "o2",
+              "text": "Tu quoque",
+              "is_correct": false,
+              "reason": "Not accusing hypocrisy."
+            },
+            {
+              "id": "o3",
+              "text": "Circular reasoning",
+              "is_correct": false,
+              "reason": "No repetition of conclusion as premise."
+            }
+          ],
+          "answers": ["red_herring"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Distraction by irrelevant topic.",
+            "long": "A red herring leads the discussion away from the original question or problem."
+          }
+        },
+        {
+          "id": "scn-020",
+          "title": "Just Because It’s Old",
+          "text": "Someone argues, 'This remedy must work—it’s been used for thousands of years.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Appeal to tradition",
+              "is_correct": true,
+              "reason": "Uses longevity of use as justification."
+            },
+            {
+              "id": "o2",
+              "text": "Appeal to authority",
+              "is_correct": false,
+              "reason": "No expert opinion cited."
+            },
+            {
+              "id": "o3",
+              "text": "Bandwagon effect",
+              "is_correct": false,
+              "reason": "No appeal to popularity."
+            }
+          ],
+          "answers": ["appeal_to_tradition"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Age of practice isn’t evidence of truth.",
+            "long": "Appealing to tradition substitutes age for evidence, blocking critical evaluation."
+          }
+        },
+        {
+          "id": "scn-021",
+          "title": "Two Wrongs Make a Right?",
+          "text": "A student caught cheating says, 'But everyone else cheats too!'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bandwagon effect",
+              "is_correct": false,
+              "reason": "Popularity isn’t the defense here, hypocrisy is."
+            },
+            {
+              "id": "o2",
+              "text": "Tu quoque",
+              "is_correct": true,
+              "reason": "Deflects blame by pointing to others’ actions."
+            },
+            {
+              "id": "o3",
+              "text": "Straw man",
+              "is_correct": false,
+              "reason": "Doesn’t misrepresent an argument."
+            }
+          ],
+          "answers": ["tu_quoque"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Evades guilt by pointing at others.",
+            "long": "Tu quoque avoids accountability by accusing others of the same wrongdoing."
+          }
+        },
+        {
+          "id": "scn-022",
+          "title": "The Rich Company",
+          "text": "The corporation is highly profitable; therefore, every department must be thriving.",
+          "options": [
+            { "id": "o1", "text": "Division fallacy", "is_correct": true, "reason": "Attributes whole-property to all parts." },
+            { "id": "o2", "text": "Composition fallacy", "is_correct": false, "reason": "That would be parts→whole." },
+            { "id": "o3", "text": "Appeal to authority", "is_correct": false, "reason": "No reliance on expert opinion is present." }
+          ],
+          "answers": ["division_fallacy"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "What’s true of the whole needn’t hold for each part.",
+            "long": "Aggregates can mask variation, making inferences to members unreliable."
+          }
+        },
+        {
+          "id": "scn-023",
+          "title": "Everyone’s Doing It",
+          "text": "A friend argues you should invest in a coin because 'everyone on social is buying.'",
+          "options": [
+            { "id": "o1", "text": "Bandwagon effect", "is_correct": true, "reason": "Popularity is treated as evidence of correctness." },
+            { "id": "o2", "text": "Sunk cost fallacy", "is_correct": false, "reason": "No past-investment reasoning." },
+            { "id": "o3", "text": "Appeal to emotion", "is_correct": false, "reason": "No emotional manipulation is present." }
+          ],
+          "answers": ["bandwagon_effect"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Popularity is not proof.",
+            "long": "Conformity heuristics substitute social signals for evaluation of evidence."
+          }
+        },
+        {
+          "id": "scn-024",
+          "title": "What About Jobs?",
+          "text": "When asked about a product’s safety flaws, a spokesperson replies by praising its job creation.",
+          "options": [
+            { "id": "o1", "text": "Red herring", "is_correct": true, "reason": "Shifts to an irrelevant benefit to evade the safety question." },
+            { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "No forced two-choice frame." },
+            { "id": "o3", "text": "Straw man", "is_correct": false, "reason": "The claim wasn’t distorted, it was sidestepped." }
+          ],
+          "answers": ["red_herring"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Topic shift to avoid the issue.",
+            "long": "Red herrings create distraction rather than addressing the original claim."
+          }
+        },
+        {
+          "id": "scn-025",
+          "title": "Due Any Minute Now",
+          "text": "After five coin tosses land tails, the bettor insists heads is 'due' on the next flip.",
+          "options": [
+            { "id": "o1", "text": "Gambler’s fallacy", "is_correct": true, "reason": "Assumes short-run balancing of independent events." },
+            { "id": "o2", "text": "Hot-hand fallacy", "is_correct": false, "reason": "Hot-hand predicts continuation of streaks." },
+            { "id": "o3", "text": "Appeal to popularity", "is_correct": false, "reason": "No reliance on others’ behavior." }
+          ],
+          "answers": ["gambler_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Random processes don’t self-correct in the short run.",
+            "long": "Independence means prior outcomes don’t change the next event’s probability."
+          }
+        },
+        {
+          "id": "scn-026",
+          "title": "Only Winners in the Data",
+          "text": "A blog claims 'entrepreneurship pays' by analyzing only companies that survived ten years.",
+          "options": [
+            { "id": "o1", "text": "Survivorship bias", "is_correct": true, "reason": "Failures are missing from the dataset." },
+            { "id": "o2", "text": "Cherry picking", "is_correct": false, "reason": "Close, but this is about missing non-survivors, not selective time windows." },
+            { "id": "o3", "text": "Post hoc fallacy", "is_correct": false, "reason": "No mere temporal sequence is assumed here." }
+          ],
+          "answers": ["survivorship_bias"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Ignoring failures distorts conclusions.",
+            "long": "Survivorship bias overestimates success by excluding entities that dropped out."
+          }
+        },
+        {
+          "id": "scn-027",
+          "title": "Because I Said So",
+          "text": "A memo defends a decision with: 'Our strategy is correct because our strategy is correct.'",
+          "options": [
+            { "id": "o1", "text": "Circular reasoning", "is_correct": true, "reason": "Conclusion is assumed in the premise." },
+            { "id": "o2", "text": "Appeal to tradition", "is_correct": false, "reason": "No reference to past practice." },
+            { "id": "o3", "text": "Ad hominem", "is_correct": false, "reason": "No attack on a person occurs." }
+          ],
+          "answers": ["circular_reasoning"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Restates the claim instead of proving it.",
+            "long": "Circularity creates the illusion of support while adding no independent reasons."
+          }
+        },
+        {
+          "id": "scn-028",
+          "title": "What Are the Odds?",
+          "text": "A rare-disease test returns positive. Without prevalence info, a patient assumes they almost certainly have the disease.",
+          "options": [
+            { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "Ignores low base rate and test characteristics." },
+            { "id": "o2", "text": "Anecdotal fallacy", "is_correct": false, "reason": "No personal story used as evidence." },
+            { "id": "o3", "text": "False dilemma", "is_correct": false, "reason": "No restricted binary choice is made." }
+          ],
+          "answers": ["base_rate_neglect"],
+          "difficulty": 3,
+          "explainers": {
+            "short": "Prevalence matters in interpreting tests.",
+            "long": "Without base rates and false-positive rates, posterior probability is often misjudged."
+          }
+        },        
+    {
+        "id": "scn-029",
+        "title": "The Echo Chamber Podcast",
+        "text": "A host only invites guests who agree with their stance on renewable energy, claiming this proves the stance is widely accepted.",
+        "options": [
+          { "id": "o1", "text": "Confirmation bias", "is_correct": true, "reason": "Only selecting agreeable voices reinforces existing beliefs." },
+          { "id": "o2", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity is not the main argument here." },
+          { "id": "o3", "text": "Resonance effect", "is_correct": false, "reason": "This is a made-up term meant to sound plausible." }
+        ],
+        "answers": ["confirmation_bias"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Selective exposure amplifies existing views.",
+          "long": "By filtering guests to only those who agree, the host avoids contradictory evidence and strengthens their preconceptions."
+        }
+      },
+      {
+        "id": "scn-030",
+        "title": "Shopping Reviews",
+        "text": "You only read 5-star reviews of a product you want, ignoring lower ratings.",
+        "options": [
+          { "id": "o1", "text": "Confirmation bias", "is_correct": true, "reason": "Selective information use reinforces a decision you already want to make." },
+          { "id": "o2", "text": "Cherry picking", "is_correct": false, "reason": "Similar, but the key here is avoiding disconfirming evidence." },
+          { "id": "o3", "text": "Value anchoring", "is_correct": false, "reason": "Anchoring is about initial reference points, not selective exposure." }
+        ],
+        "answers": ["confirmation_bias"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "We ignore contrary evidence when it threatens our desired choice.",
+          "long": "Confirmation bias can manifest in consumer behavior when people seek only reviews that support their intended purchase."
+        }
+      },
+      {
+        "id": "scn-031",
+        "title": "The Political Filter",
+        "text": "During election season, you dismiss all news from sources that endorse the opposing candidate without reading them.",
+        "options": [
+          { "id": "o1", "text": "Confirmation bias", "is_correct": true, "reason": "You reject potentially valid information based on its source aligning against your prior beliefs." },
+          { "id": "o2", "text": "Ad hominem", "is_correct": false, "reason": "Although it attacks the source, the main process is selective acceptance." },
+          { "id": "o3", "text": "Context neglect", "is_correct": false, "reason": "This is a fabricated distractor to sound credible." }
+        ],
+        "answers": ["confirmation_bias"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Source dismissal protects existing attitudes.",
+          "long": "By rejecting entire outlets without engaging with their content, people insulate themselves from challenging perspectives."
+        }
+      },
+      {
+        "id": "scn-032",
+        "title": "Test Score Belief",
+        "text": "After scoring high on one math test, a student reads only articles that say natural talent matters more than practice.",
+        "options": [
+          { "id": "o1", "text": "Confirmation bias", "is_correct": true, "reason": "They actively seek information supporting their preferred explanation." },
+          { "id": "o2", "text": "Self-serving bias", "is_correct": false, "reason": "Self-serving bias attributes causes favorably, but this is about information selection." },
+          { "id": "o3", "text": "Outcome persistence", "is_correct": false, "reason": "Fictional term for misdirection." }
+        ],
+        "answers": ["confirmation_bias"],
+        "difficulty": 3,
+        "explainers": {
+          "short": "We gravitate toward beliefs that flatter our self-image.",
+          "long": "Confirmation bias combines with ego protection when we selectively seek evidence that validates a flattering narrative."
+        }
+      },
+      {
+        "id": "scn-033",
+        "title": "The Lottery Myth",
+        "text": "After seeing three jackpot winners from the same store, you start buying tickets there believing it’s 'lucky.'",
+        "options": [
+          { "id": "o1", "text": "Availability heuristic", "is_correct": true, "reason": "Recent vivid examples make the store seem statistically special." },
+          { "id": "o2", "text": "Gambler’s fallacy", "is_correct": false, "reason": "No belief about balancing; it’s about vividness and salience." },
+          { "id": "o3", "text": "Probability mirage", "is_correct": false, "reason": "Fabricated term to distract." }
+        ],
+        "answers": ["availability_heuristic"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "Salient cases distort actual probability.",
+          "long": "Highly memorable instances override statistical reasoning, making us perceive patterns where none exist."
+        }
+      },
+      {
+        "id": "scn-034",
+        "title": "Fear of Flying",
+        "text": "After watching news of a plane crash, you decide to drive on your next trip, even though statistics say driving is riskier.",
+        "options": [
+          { "id": "o1", "text": "Availability heuristic", "is_correct": true, "reason": "The crash coverage makes air travel dangers more mentally accessible." },
+          { "id": "o2", "text": "Loss aversion", "is_correct": false, "reason": "Loss aversion is about avoiding losses, not distorted probability from salience." },
+          { "id": "o3", "text": "Impact recall bias", "is_correct": false, "reason": "Invented plausible-sounding bias." }
+        ],
+        "answers": ["availability_heuristic"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "Emotional vividness outweighs actual odds.",
+          "long": "The mind overweights accessible, emotionally charged events, ignoring actuarial data."
+        }
+      },
+      {
+        "id": "scn-035",
+        "title": "The Viral Crime Video",
+        "text": "A widely shared video of a robbery leads you to believe crime rates are increasing, despite long-term data showing a decline.",
+        "options": [
+          { "id": "o1", "text": "Availability heuristic", "is_correct": true, "reason": "One vivid example distorts perception of overall trend." },
+          { "id": "o2", "text": "Hasty generalization", "is_correct": false, "reason": "Close, but the mechanism is salience, not sampling." },
+          { "id": "o3", "text": "Frequency illusion", "is_correct": false, "reason": "That’s a different cognitive bias involving noticing patterns." }
+        ],
+        "answers": ["availability_heuristic"],
+        "difficulty": 2,
+        "explainers": {
+          "short": "Single events can skew our perception of trends.",
+          "long": "The availability heuristic turns isolated, memorable events into perceived evidence of systemic change."
+        }
+      },
+      {
+        "id": "scn-036",
+        "title": "The Shark Movie Effect",
+        "text": "After watching a popular shark attack film, you cancel a planned surf trip.",
+        "options": [
+          { "id": "o1", "text": "Availability heuristic", "is_correct": true, "reason": "A fictional but vivid scenario primes fear." },
+          { "id": "o2", "text": "Appeal to emotion", "is_correct": false, "reason": "While emotion is present, the mechanism is salience from memory." },
+          { "id": "o3", "text": "Narrative hazard bias", "is_correct": false, "reason": "Fictional distractor for realism." }
+        ],
+        "answers": ["availability_heuristic"],
+        "difficulty": 1,
+        "explainers": {
+          "short": "Vivid fiction can shape real-world risk assessment.",
+          "long": "The mind often fails to distinguish between salience from fact and salience from fiction when judging danger."
+        }
+      },
+      {
+          "id": "scn-037",
+          "title": "The Never-Ending Software Rewrite",
+          "text": "A company keeps pouring resources into a flawed software overhaul because they’ve already spent 18 months and millions on it.",
+          "options": [
+            { "id": "o1", "text": "Sunk cost fallacy", "is_correct": true, "reason": "Past investment is used as justification for continued investment." },
+            { "id": "o2", "text": "Planning fallacy", "is_correct": false, "reason": "Planning fallacy is about underestimating time or costs, not sticking due to sunk costs." },
+            { "id": "o3", "text": "Continuity justification", "is_correct": false, "reason": "Fabricated option." }
+          ],
+          "answers": ["sunk_cost_fallacy"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Past expenses are irrelevant to rational decision-making.",
+            "long": "Sunk cost fallacy occurs when irrecoverable investments distort future choices instead of evaluating only future costs and benefits."
+          }
+        },
+        {
+          "id": "scn-038",
+          "title": "The Dinner Disaster",
+          "text": "You keep eating a terrible meal at an expensive restaurant because you already paid for it.",
+          "options": [
+            { "id": "o1", "text": "Sunk cost fallacy", "is_correct": true, "reason": "Past payment doesn’t make continuing worthwhile." },
+            { "id": "o2", "text": "Loss aversion", "is_correct": false, "reason": "Loss aversion is about avoiding loss, not justifying waste." },
+            { "id": "o3", "text": "Value entrapment", "is_correct": false, "reason": "Fabricated term." }
+          ],
+          "answers": ["sunk_cost_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "You can’t get your money back by enduring more bad experience.",
+            "long": "Sunk cost bias makes people throw good time after bad in hopes of recovering value already gone."
+          }
+        },
+        {
+          "id": "scn-039",
+          "title": "The Struggling Hobby",
+          "text": "A friend keeps paying for guitar lessons even though they no longer enjoy playing, because they've spent two years learning.",
+          "options": [
+            { "id": "o1", "text": "Sunk cost fallacy", "is_correct": true, "reason": "Past time investment is used to justify present behavior." },
+            { "id": "o2", "text": "Appeal to tradition", "is_correct": false, "reason": "Tradition is not the argument here." },
+            { "id": "o3", "text": "Commitment inertia", "is_correct": false, "reason": "Made-up term." }
+          ],
+          "answers": ["sunk_cost_fallacy"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Past time investment can trap us in unwanted activities.",
+            "long": "This bias is common in hobbies, relationships, and careers when people confuse past effort with present value."
+          }
+        },
+        {
+          "id": "scn-040",
+          "title": "The Movie Marathon",
+          "text": "You force yourself to finish a boring TV series because you’ve already watched 5 seasons.",
+          "options": [
+            { "id": "o1", "text": "Sunk cost fallacy", "is_correct": true, "reason": "Time spent doesn’t require more time spent." },
+            { "id": "o2", "text": "Escalation of commitment", "is_correct": false, "reason": "Close relative, but escalation involves competitive contexts." },
+            { "id": "o3", "text": "Finality bias", "is_correct": false, "reason": "Fabricated term." }
+          ],
+          "answers": ["sunk_cost_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "The desire to 'finish' ignores the fact that the cost is already gone.",
+            "long": "People often overvalue completion when they’ve already sunk large amounts of time or money."
+          }
+        },
+        {
+          "id": "scn-041",
+          "title": "The Climate Scientist Smear",
+          "text": "During a debate, someone says, 'Why listen to her on climate change? She once failed a driving test.'",
+          "options": [
+            { "id": "o1", "text": "Ad hominem", "is_correct": true, "reason": "Attacks irrelevant personal detail instead of the argument." },
+            { "id": "o2", "text": "Appeal to ridicule", "is_correct": false, "reason": "Ridicule is not the main tactic here." },
+            { "id": "o3", "text": "Credibility diversion", "is_correct": false, "reason": "Fabricated option." }
+          ],
+          "answers": ["ad_hominem"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Unrelated personal faults don’t refute an argument.",
+            "long": "Ad hominem attacks focus on discrediting the person rather than engaging with their evidence or reasoning."
+          }
+        },
+        {
+          "id": "scn-042",
+          "title": "The Health Blogger Attack",
+          "text": "A critic dismisses a nutrition article by saying, 'The author is overweight, so their advice can’t be good.'",
+          "options": [
+            { "id": "o1", "text": "Ad hominem", "is_correct": true, "reason": "The person’s appearance is irrelevant to the validity of their information." },
+            { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "No authority is cited here." },
+            { "id": "o3", "text": "Physique relevance fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+          ],
+          "answers": ["ad_hominem"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Appearance ≠ quality of reasoning.",
+            "long": "Personal traits unrelated to the claim’s logic are irrelevant to assessing truth."
+          }
+        },
+        {
+          "id": "scn-043",
+          "title": "The Startup Founder Critique",
+          "text": "In a pitch meeting, an investor says, 'We can’t trust his business model; he dropped out of college.'",
+          "options": [
+            { "id": "o1", "text": "Ad hominem", "is_correct": true, "reason": "Educational background is irrelevant unless the claim depends on it directly." },
+            { "id": "o2", "text": "Genetic fallacy", "is_correct": false, "reason": "This is not about the origin of an idea but a personal attack." },
+            { "id": "o3", "text": "Origin bias", "is_correct": false, "reason": "Fabricated plausible term." }
+          ],
+          "answers": ["ad_hominem"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Irrelevant biography is not evidence.",
+            "long": "Ad hominem shifts focus from the claim’s merits to unrelated personal history."
+          }
+        },
+        {
+          "id": "scn-044",
+          "title": "The Political Debate Low Blow",
+          "text": "Instead of addressing a policy, a candidate says their opponent 'cheated on their taxes once.'",
+          "options": [
+            { "id": "o1", "text": "Ad hominem", "is_correct": true, "reason": "Past unrelated misdeeds are irrelevant to current argument." },
+            { "id": "o2", "text": "Tu quoque", "is_correct": false, "reason": "Tu quoque accuses hypocrisy; this is unrelated misconduct." },
+            { "id": "o3", "text": "Moral offset bias", "is_correct": false, "reason": "Fabricated term." }
+          ],
+          "answers": ["ad_hominem"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Past wrongdoing ≠ invalid argument.",
+            "long": "Even true personal flaws do not inherently undermine the validity of a logical point."
+          }
+        },
+        {
+          "id": "scn-045",
+          "title": "The Local Weather Argument",
+          "text": "Someone dismisses global climate change by saying, 'Last winter here was the coldest in years.'",
+          "options": [
+            { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "Uses one localized event to dispute a global trend." },
+            { "id": "o2", "text": "Hasty generalization", "is_correct": false, "reason": "This is about over-relying on a single anecdote." },
+            { "id": "o3", "text": "Climatic exceptionism", "is_correct": false, "reason": "Fabricated term." }
+          ],
+          "answers": ["anecdotal_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "One data point ≠ systemic evidence.",
+            "long": "The anecdotal fallacy elevates a single vivid case over broad statistical analysis."
+          }
+        },
+        {
+          "id": "scn-046",
+          "title": "The Miracle Patient",
+          "text": "A supplement is marketed using one story of a person claiming it cured their illness.",
+          "options": [
+            { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "One unverified case is presented as proof of general effectiveness." },
+            { "id": "o2", "text": "Post hoc", "is_correct": false, "reason": "Causation is assumed, but the core flaw is reliance on one story." },
+            { "id": "o3", "text": "Recovery bias", "is_correct": false, "reason": "Fabricated distractor." }
+          ],
+          "answers": ["anecdotal_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "A single success story isn’t reliable proof.",
+            "long": "Without representative sampling, anecdotes can mislead about the true probability of outcomes."
+          }
+        },
+        {
+          "id": "scn-047",
+          "title": "The Friendly Mechanic",
+          "text": "You decide a mechanic must be trustworthy because your friend had one good experience with them.",
+          "options": [
+            { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "The single positive case is treated as conclusive." },
+            { "id": "o2", "text": "Appeal to popularity", "is_correct": false, "reason": "This isn’t about what the majority thinks." },
+            { "id": "o3", "text": "Trust anchor effect", "is_correct": false, "reason": "Made-up term." }
+          ],
+          "answers": ["anecdotal_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "One good review doesn’t guarantee reliability.",
+            "long": "The anecdotal fallacy ignores that luck, context, or unique circumstances may not generalize."
+          }
+        },
+        {
+          "id": "scn-048",
+          "title": "The Restaurant Rumor",
+          "text": "After hearing one neighbor’s horror story about a restaurant, you vow never to go there.",
+          "options": [
+            { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "One negative account is taken as decisive evidence." },
+            { "id": "o2", "text": "Slippery slope", "is_correct": false, "reason": "No chain of events is predicted." },
+            { "id": "o3", "text": "Experience extrapolation error", "is_correct": false, "reason": "Fabricated distractor." }
+          ],
+          "answers": ["anecdotal_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "One bad case may not reflect typical service.",
+            "long": "Negative anecdotes can be compelling but are not representative data."
+          }
+        },
+        {
+          "id": "scn-049",
+          "title": "The Basketball Hot Streak",
+          "text": "After making three shots in a row, a player believes they’re more likely to score the next one.",
+          "options": [
+            { "id": "o1", "text": "Hot-hand fallacy", "is_correct": true, "reason": "They assume momentum in independent events." },
+            { "id": "o2", "text": "Gambler’s fallacy", "is_correct": false, "reason": "Gambler’s fallacy predicts balancing, not continuation." },
+            { "id": "o3", "text": "Performance carryover bias", "is_correct": false, "reason": "Fabricated term." }
+          ],
+          "answers": ["hot_hand_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Past success doesn’t change odds in independent events.",
+            "long": "The hot-hand fallacy attributes skill momentum to random streaks."
+          }
+        },
+        {
+          "id": "scn-050",
+          "title": "The Lucky Roulette Player",
+          "text": "A casino player keeps betting on red because they’ve won the last five spins.",
+          "options": [
+            { "id": "o1", "text": "Hot-hand fallacy", "is_correct": true, "reason": "They assume their winning streak will continue." },
+            { "id": "o2", "text": "Post hoc", "is_correct": false, "reason": "This isn’t about cause and effect in sequence." },
+            { "id": "o3", "text": "Victory inertia", "is_correct": false, "reason": "Fabricated option." }
+          ],
+          "answers": ["hot_hand_fallacy"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Random wins don’t have momentum.",
+            "long": "The hot-hand fallacy can lead to overconfidence in gambling or competitive games."
+          }
+        },
+        {
+          "id": "scn-051",
+          "title": "The Stock Picker",
+          "text": "An investor keeps buying the same stock after a series of gains, convinced the trend will persist indefinitely.",
+          "options": [
+            { "id": "o1", "text": "Hot-hand fallacy", "is_correct": true, "reason": "They treat market momentum as inevitable continuation." },
+            { "id": "o2", "text": "Bandwagon effect", "is_correct": false, "reason": "The choice isn’t framed as following others." },
+            { "id": "o3", "text": "Success chaining", "is_correct": false, "reason": "Fabricated term." }
+          ],
+          "answers": ["hot_hand_fallacy"],
+          "difficulty": 2,
+          "explainers": {
+            "short": "Recent streaks are poor predictors in random or noisy systems.",
+            "long": "Investors often misinterpret short-term success as evidence of permanent trend."
+          }
+        },
+        {
+          "id": "scn-052",
+          "title": "The Video Game Win",
+          "text": "After winning multiple online matches, a gamer assumes they’ll easily win the next one too.",
+          "options": [
+            { "id": "o1", "text": "Hot-hand fallacy", "is_correct": true, "reason": "Random variance is mistaken for guaranteed momentum." },
+            { "id": "o2", "text": "Self-serving bias", "is_correct": false, "reason": "Self-serving bias explains attribution of cause, not prediction." },
+            { "id": "o3", "text": "Momentum certainty illusion", "is_correct": false, "reason": "Fabricated distractor." }
+          ],
+          "answers": ["hot_hand_fallacy"],
+          "difficulty": 1,
+          "explainers": {
+            "short": "Recent success is overinterpreted as predictive.",
+            "long": "The hot-hand fallacy thrives in competitive settings, where streaks feel meaningful."
+          }
+        },
+        {
+            "id": "scn-053",
+            "title": "The Rare Disease Test",
+            "text": "A person hears they tested positive for a rare disease and assumes they almost certainly have it, ignoring that the disease affects only 1 in 10,000 people.",
+            "options": [
+              { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignored the low base rate when interpreting the result." },
+              { "id": "o2", "text": "Availability heuristic", "is_correct": false, "reason": "The result wasn’t chosen due to ease of recall." },
+              { "id": "o3", "text": "Statistical omission bias", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["base_rate_neglect"],
+            "difficulty": 2,
+            "explainers": {
+              "short": "Ignoring prevalence rates can lead to misinterpretation of evidence.",
+              "long": "Base rate neglect occurs when people fail to account for prior probabilities in decision-making."
+            }
+          },
+          {
+            "id": "scn-054",
+            "title": "The Tech Hiring Decision",
+            "text": "A manager hires a programmer because they passed a tough coding challenge, ignoring that the company has a 95% failure rate in retaining such hires.",
+            "options": [
+              { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignored historical retention rates." },
+              { "id": "o2", "text": "Survivorship bias", "is_correct": false, "reason": "This is not about overvaluing visible successes." },
+              { "id": "o3", "text": "Outcome optimism effect", "is_correct": false, "reason": "Fabricated distractor." }
+            ],
+            "answers": ["base_rate_neglect"],
+            "difficulty": 2,
+            "explainers": {
+              "short": "Ignoring long-term success rates can mislead hiring decisions.",
+              "long": "The base rate neglect fallacy overlooks the underlying distribution in favor of specific data points."
+            }
+          },
+          {
+            "id": "scn-055",
+            "title": "The Shark Attack Fear",
+            "text": "After a shark attack is reported, a swimmer refuses to go in the ocean, ignoring that attacks are statistically rare.",
+            "options": [
+              { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignored the extremely low probability of the event." },
+              { "id": "o2", "text": "Negativity bias", "is_correct": false, "reason": "Negativity bias focuses on weighting bad news more heavily, not statistical disregard." },
+              { "id": "o3", "text": "Risk salience bias", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["base_rate_neglect"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Rare events are often overestimated when ignoring base rates.",
+              "long": "Even vivid or frightening examples don’t change the mathematical probability of a rare event."
+            }
+          },
+          {
+            "id": "scn-056",
+            "title": "The Startup Investment Pitch",
+            "text": "An investor pours money into a startup after hearing that '5% of startups become billion-dollar companies,' ignoring that 95% fail entirely.",
+            "options": [
+              { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignored the overwhelming probability of failure." },
+              { "id": "o2", "text": "Optimism bias", "is_correct": false, "reason": "Optimism bias is belief in better outcomes for oneself, not ignoring statistical odds." },
+              { "id": "o3", "text": "Entrepreneurial halo", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["base_rate_neglect"],
+            "difficulty": 2,
+            "explainers": {
+              "short": "Focusing on rare success stories distorts realistic expectations.",
+              "long": "Base rate neglect leads to overconfidence when rare successes are highlighted without context."
+            }
+          },
+          {
+            "id": "scn-057",
+            "title": "The New Diet Craze",
+            "text": "Everyone at work starts a new diet, and you join in because 'everyone is doing it.'",
+            "options": [
+              { "id": "o1", "text": "Bandwagon effect", "is_correct": true, "reason": "Popularity is mistaken for quality." },
+              { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "No authority is cited here." },
+              { "id": "o3", "text": "Collective adoption bias", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["bandwagon_effect"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Popularity doesn’t equal correctness.",
+              "long": "The bandwagon effect occurs when the main reason for a choice is that others are making it."
+            }
+          },
+          {
+            "id": "scn-058",
+            "title": "The Viral Investment",
+            "text": "You invest in a cryptocurrency simply because it’s trending on social media.",
+            "options": [
+              { "id": "o1", "text": "Bandwagon effect", "is_correct": true, "reason": "Trendiness is confused with merit." },
+              { "id": "o2", "text": "Gambler’s fallacy", "is_correct": false, "reason": "This isn’t about randomness balancing." },
+              { "id": "o3", "text": "FOMO bias", "is_correct": false, "reason": "Close but FOMO is more about fear of missing out." }
+            ],
+            "answers": ["bandwagon_effect"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Trend adoption often feels safer but isn’t inherently wiser.",
+              "long": "The bandwagon effect can create market bubbles when everyone rushes to join a fad."
+            }
+          },
+          {
+            "id": "scn-059",
+            "title": "The Popular Movie Review",
+            "text": "You assume a movie is good because it’s the highest-grossing film of the year.",
+            "options": [
+              { "id": "o1", "text": "Bandwagon effect", "is_correct": true, "reason": "Sales figures are mistaken for quality." },
+              { "id": "o2", "text": "Appeal to popularity", "is_correct": false, "reason": "Very close, but bandwagon focuses on following the majority decision." },
+              { "id": "o3", "text": "Revenue-based reasoning", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["bandwagon_effect"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Popularity ≠ inherent quality.",
+              "long": "Box office performance doesn’t necessarily reflect artistic or technical merit."
+            }
+          },
+          {
+            "id": "scn-060",
+            "title": "The Party Outfit",
+            "text": "You buy a particular style of jacket because everyone in your friend group has one.",
+            "options": [
+              { "id": "o1", "text": "Bandwagon effect", "is_correct": true, "reason": "Peer choices become justification for your own." },
+              { "id": "o2", "text": "Social proof", "is_correct": false, "reason": "Related concept, but this scenario is about conforming to a group trend." },
+              { "id": "o3", "text": "Style convergence bias", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["bandwagon_effect"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Group norms often drive decisions without individual evaluation.",
+              "long": "The bandwagon effect encourages conformity even when personal preference might differ."
+            }
+          },
+          {
+            "id": "scn-061",
+            "title": "The Two Career Paths",
+            "text": "A student says, 'Either I become a doctor or I’ve wasted my life,' ignoring other fulfilling careers.",
+            "options": [
+              { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "They present only two options when many exist." },
+              { "id": "o2", "text": "Appeal to consequences", "is_correct": false, "reason": "This isn’t about consequences but limited framing." },
+              { "id": "o3", "text": "Binary vision bias", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["false_dilemma"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Limiting choices artificially can distort decision-making.",
+              "long": "False dilemmas reduce complex realities to two simplistic options."
+            }
+          },
+          {
+            "id": "scn-062",
+            "title": "The Policy Debate",
+            "text": "In a debate about education reform, someone says, 'You either support this bill or you hate children.'",
+            "options": [
+              { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "They falsely claim only two stances exist." },
+              { "id": "o2", "text": "Straw man", "is_correct": false, "reason": "This isn’t misrepresenting an argument but oversimplifying choices." },
+              { "id": "o3", "text": "Moral bifurcation", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["false_dilemma"],
+            "difficulty": 2,
+            "explainers": {
+              "short": "Two-choice framing oversimplifies nuanced debates.",
+              "long": "False dilemmas push audiences into extremes without acknowledging other positions."
+            }
+          },
+          {
+            "id": "scn-063",
+            "title": "The Environmental Choice",
+            "text": "An activist says, 'Either we ban all cars immediately or we’ll destroy the planet,' ignoring gradual or alternative solutions.",
+            "options": [
+              { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "Extreme two-option framing ignores alternatives." },
+              { "id": "o2", "text": "Slippery slope", "is_correct": false, "reason": "This isn’t about inevitable chain reactions." },
+              { "id": "o3", "text": "Environmental absolutism", "is_correct": false, "reason": "Fabricated distractor." }
+            ],
+            "answers": ["false_dilemma"],
+            "difficulty": 2,
+            "explainers": {
+              "short": "Extreme framing oversimplifies solutions.",
+              "long": "False dilemmas can be persuasive in activism but misrepresent the range of viable approaches."
+            }
+          },
+          {
+            "id": "scn-064",
+            "title": "The Sports Loyalty",
+            "text": "A fan says, 'Either you support our team or you’re a traitor,' ignoring neutral or casual fans.",
+            "options": [
+              { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "They ignore middle ground positions." },
+              { "id": "o2", "text": "Appeal to loyalty", "is_correct": false, "reason": "While loyalty is invoked, the logic is binary framing." },
+              { "id": "o3", "text": "Tribal binary bias", "is_correct": false, "reason": "Fabricated term." }
+            ],
+            "answers": ["false_dilemma"],
+            "difficulty": 1,
+            "explainers": {
+              "short": "Complex loyalty can’t be reduced to two extremes.",
+              "long": "False dilemmas push people into artificial camps, ignoring more nuanced stances."
+            }
+          },
+          {
+              "id": "scn-065",
+              "title": "The Legacy Workflow",
+              "text": "An operations lead rejects a more reliable tool, saying, “We’ve used the old system for twenty years, so it’s the right one for us.”",
+              "options": [
+                { "id": "o1", "text": "Appeal to tradition", "is_correct": true, "reason": "Longevity is used as the reason rather than evidence." },
+                { "id": "o2", "text": "Status quo bias", "is_correct": false, "reason": "Related tendency but the argument explicitly cites tradition as justification." },
+                { "id": "o3", "text": "Historic optimality heuristic", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["appeal_to_tradition"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Age of a practice isn’t evidence it’s best.",
+                "long": "Appeal to tradition substitutes historical continuity for comparative evaluation of alternatives."
+              }
+            },
+            {
+              "id": "scn-066",
+              "title": "Keep the Calendar",
+              "text": "A committee opposes modifying the school calendar: “Summer has always been long; therefore it should stay that way.”",
+              "options": [
+                { "id": "o1", "text": "Appeal to tradition", "is_correct": true, "reason": "Relies on custom as the central warrant." },
+                { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "No forced two-choice frame is presented." },
+                { "id": "o3", "text": "Temporal anchoring", "is_correct": false, "reason": "Fabricated term." }
+              ],
+              "answers": ["appeal_to_tradition"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Custom ≠ compelling reason.",
+                "long": "Tradition can be a consideration but isn’t itself an argument for optimality without further reasons."
+              }
+            },
+            {
+              "id": "scn-067",
+              "title": "The Old Procedure",
+              "text": "A clinic refuses to adopt a safer, evidence-backed protocol: “This procedure has been our standard since the 90s.”",
+              "options": [
+                { "id": "o1", "text": "Appeal to tradition", "is_correct": true, "reason": "Relies on historical use over current evidence." },
+                { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "No authority is cited—only custom." },
+                { "id": "o3", "text": "Legacy preference bias", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["appeal_to_tradition"],
+              "difficulty": 2,
+              "explainers": {
+                "short": "Standards should track current evidence.",
+                "long": "In safety-critical contexts, tradition should not outweigh updated risk–benefit data."
+              }
+            },
+            {
+              "id": "scn-068",
+              "title": "Dress Code Forever",
+              "text": "HR defends a formal dress code with: “It’s always been part of our culture.”",
+              "options": [
+                { "id": "o1", "text": "Appeal to tradition", "is_correct": true, "reason": "‘Always been’ is presented as sufficient reason." },
+                { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "No topic shift—just tradition as justification." },
+                { "id": "o3", "text": "Cultural inertia fallacy", "is_correct": false, "reason": "Fabricated term." }
+              ],
+              "answers": ["appeal_to_tradition"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Culture claims still need reasons.",
+                "long": "Appeals to tradition often mask preference without engaging costs, benefits, or goals."
+              }
+            },
+            {
+              "id": "scn-069",
+              "title": "Tax Talk Twist",
+              "text": "A proposal to modestly raise top tax rates is attacked as “wanting to confiscate everyone’s income.”",
+              "options": [
+                { "id": "o1", "text": "Straw man", "is_correct": true, "reason": "Misrepresents a limited proposal as an extreme position." },
+                { "id": "o2", "text": "False equivalence", "is_correct": false, "reason": "Not comparing unlike things as equal." },
+                { "id": "o3", "text": "Fiscal caricature bias", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["straw_man"],
+              "difficulty": 2,
+              "explainers": {
+                "short": "Attacking a distorted version isn’t a refutation.",
+                "long": "Straw-manning replaces the actual claim with an exaggerated one that’s easier to knock down."
+              }
+            },
+            {
+              "id": "scn-070",
+              "title": "Sugar Advice Becomes a Ban",
+              "text": "A nutritionist recommends reducing added sugar; critics reply, “So you want to ban desserts entirely?”",
+              "options": [
+                { "id": "o1", "text": "Straw man", "is_correct": true, "reason": "Turns ‘reduce’ into ‘ban’ to make it easier to attack." },
+                { "id": "o2", "text": "Slippery slope", "is_correct": false, "reason": "No inevitability chain—just distortion of the claim." },
+                { "id": "o3", "text": "Dietary absolutism bias", "is_correct": false, "reason": "Fabricated term." }
+              ],
+              "answers": ["straw_man"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Exaggerating claims misleads audiences.",
+                "long": "Straw men commonly substitute moderation advice with absolutist caricatures."
+              }
+            },
+            {
+              "id": "scn-071",
+              "title": "Privacy Tools = Crime?",
+              "text": "A journalist who supports privacy tools is accused of “defending criminals who want to hide evidence.”",
+              "options": [
+                { "id": "o1", "text": "Straw man", "is_correct": true, "reason": "Privacy advocacy is distorted into defending criminal concealment." },
+                { "id": "o2", "text": "Ad hominem", "is_correct": false, "reason": "No personal insult; the position is misrepresented." },
+                { "id": "o3", "text": "Security inversion error", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["straw_man"],
+              "difficulty": 2,
+              "explainers": {
+                "short": "Misrepresents the principle being defended.",
+                "long": "Straw man arguments collapse legitimate goals (privacy) into extreme or disreputable aims."
+              }
+            },
+            {
+              "id": "scn-072",
+              "title": "School Reform Caricature",
+              "text": "A policy suggests adding mentoring time; opponents say, “You want to abolish academic standards.”",
+              "options": [
+                { "id": "o1", "text": "Straw man", "is_correct": true, "reason": "Mentoring is recast as eliminating standards." },
+                { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "Not a binary frame—this is a distortion of the proposal." },
+                { "id": "o3", "text": "Support-student paradox", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["straw_man"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Moderate changes reframed as extremes.",
+                "long": "Straw-manning often imputes radical intent to modest proposals."
+              }
+            },
+            {
+              "id": "scn-073",
+              "title": "Curfew to Police State",
+              "text": "A city considers a 10 p.m. curfew in one district. A critic says it will “inevitably lead to a police state.”",
+              "options": [
+                { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "Predicts an extreme outcome without showing a necessary chain." },
+                { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "No topic shift; it’s a causal inevitability claim." },
+                { "id": "o3", "text": "Authority cascade fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["slippery_slope"],
+              "difficulty": 2,
+              "explainers": {
+                "short": "From small policy to extreme outcome without mechanism.",
+                "long": "Slippery slope claims require evidence of causal steps, not mere assertion."
+              }
+            },
+            {
+              "id": "scn-074",
+              "title": "Feature Creep Catastrophe",
+              "text": "A PM argues that adding one opt-in notification will “drive users away in droves and kill the product.”",
+              "options": [
+                { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "Claims a small change inevitably causes collapse." },
+                { "id": "o2", "text": "Post hoc", "is_correct": false, "reason": "Not inferring from sequence; it’s forecasting inevitability." },
+                { "id": "o3", "text": "Adoption panic bias", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["slippery_slope"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Predicts spiral without establishing each step.",
+                "long": "Slippery slope rhetoric often ignores design choices that can mitigate risks."
+              }
+            },
+            {
+              "id": "scn-075",
+              "title": "Cafe → Nightlife Collapse",
+              "text": "A neighborhood debates allowing a small café; an opponent says it will “inevitably turn the area into a noisy bar district.”",
+              "options": [
+                { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "Assumes inevitable escalation without showing necessity." },
+                { "id": "o2", "text": "Post hoc (false cause)", "is_correct": false, "reason": "It’s not a past sequence claim; it’s a predicted chain." },
+                { "id": "o3", "text": "Urban domino bias", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["slippery_slope"],
+              "difficulty": 2,
+              "explainers": {
+                "short": "From café to chaos without substantiation.",
+                "long": "Absent policy details and constraints, the inevitability claim is speculative."
+              }
+            },
+            {
+              "id": "scn-076",
+              "title": "Phones Ruin Schools",
+              "text": "A principal argues that allowing phones during a 10-minute break will “inevitably destroy academic outcomes.”",
+              "options": [
+                { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "Predicts catastrophic decline from a limited allowance." },
+                { "id": "o2", "text": "Appeal to emotion", "is_correct": false, "reason": "May be emotive but the core is inevitability." },
+                { "id": "o3", "text": "Distraction determinism", "is_correct": false, "reason": "Fabricated distractor." }
+              ],
+              "answers": ["slippery_slope"],
+              "difficulty": 1,
+              "explainers": {
+                "short": "Catastrophe predicted without causal chain.",
+                "long": "Assessing policy requires mechanisms and moderating conditions, not inevitability language."
+              }
+            },
+            {
+                "id": "scn-077",
+                "title": "Rain Dance Proof",
+                "text": "A village performs a ritual, and the next day it rains. Elders conclude the dance caused the rain.",
+                "options": [
+                  { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Correlation in time is mistaken for causation." },
+                  { "id": "o2", "text": "Post hoc", "is_correct": false, "reason": "While similar, this scenario lacks an explicit 'after therefore because' claim—it's framed as a general cause." },
+                  { "id": "o3", "text": "Magical necessity bias", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["post_hoc_false_cause"],
+                "difficulty": 1,
+                "explainers": {
+                  "short": "Correlation ≠ causation.",
+                  "long": "False cause errors occur when events are linked without adequate evidence of causal connection."
+                }
+              },
+              {
+                "id": "scn-078",
+                "title": "The Lucky Socks",
+                "text": "An athlete wears the same socks after a win, believing they caused the victory.",
+                "options": [
+                  { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Links an unrelated ritual to an outcome." },
+                  { "id": "o2", "text": "Confirmation bias", "is_correct": false, "reason": "No selective evidence search—it's causation assumption." },
+                  { "id": "o3", "text": "Superstition heuristic", "is_correct": false, "reason": "Fabricated term." }
+                ],
+                "answers": ["post_hoc_false_cause"],
+                "difficulty": 1,
+                "explainers": {
+                  "short": "Unrelated events don't imply cause.",
+                  "long": "Superstitions often arise from false cause reasoning."
+                }
+              },
+              {
+                "id": "scn-079",
+                "title": "Economic Coincidence",
+                "text": "A country changes its flag design; two years later GDP rises, and some claim the new flag caused the growth.",
+                "options": [
+                  { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Assumes unrelated policy change caused economic trends." },
+                  { "id": "o2", "text": "Appeal to novelty", "is_correct": false, "reason": "No claim that newness alone makes it better—just causation claim." },
+                  { "id": "o3", "text": "Symbolic determinism fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["post_hoc_false_cause"],
+                "difficulty": 2,
+                "explainers": {
+                  "short": "Coincidence mistaken for causation.",
+                  "long": "Correlation in complex systems often arises from independent factors."
+                }
+              },
+              {
+                "id": "scn-080",
+                "title": "Job Loss Blame",
+                "text": "A company upgrades its software, and weeks later several employees resign. Management blames the software change.",
+                "options": [
+                  { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Infers causation from sequence without supporting evidence." },
+                  { "id": "o2", "text": "Hasty generalization", "is_correct": false, "reason": "It's not a broad generalization—it's causal inference without proof." },
+                  { "id": "o3", "text": "Operational shift bias", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["post_hoc_false_cause"],
+                "difficulty": 1,
+                "explainers": {
+                  "short": "Sequence alone doesn’t prove cause.",
+                  "long": "Other factors could explain the resignations."
+                }
+              },
+              {
+                "id": "scn-085",
+                "title": "Light Feather",
+                "text": "In a debate about physics, someone says, “A feather is light because it has little weight.”",
+                "options": [
+                  { "id": "o1", "text": "Equivocation", "is_correct": true, "reason": "Uses 'light' in two senses interchangeably." },
+                  { "id": "o2", "text": "Begging the question", "is_correct": false, "reason": "Not circular—it's word ambiguity." },
+                  { "id": "o3", "text": "Semantic shift fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["equivocation"],
+                "difficulty": 1,
+                "explainers": {
+                  "short": "Word meaning changes mid-argument.",
+                  "long": "Equivocation exploits semantic ambiguity to make an argument seem valid."
+                }
+              },
+              {
+                "id": "scn-086",
+                "title": "Bank Interest",
+                "text": "A bank ad says, “We have your best interests at heart,” while discussing interest rates.",
+                "options": [
+                  { "id": "o1", "text": "Equivocation", "is_correct": true, "reason": "Plays on two meanings of 'interest'." },
+                  { "id": "o2", "text": "Pun", "is_correct": false, "reason": "While it's wordplay, the issue here is using ambiguity for persuasion." },
+                  { "id": "o3", "text": "Wordplay fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["equivocation"],
+                "difficulty": 1,
+                "explainers": {
+                  "short": "Double meaning of 'interest' blurs the claim.",
+                  "long": "This is a textbook case of semantic ambiguity."
+                }
+              },
+              {
+                "id": "scn-087",
+                "title": "Freedom of the Press",
+                "text": "A politician says, “I support a free press—free from criticism, that is.”",
+                "options": [
+                  { "id": "o1", "text": "Equivocation", "is_correct": true, "reason": "Shifts meaning of 'free' between clauses." },
+                  { "id": "o2", "text": "Straw man", "is_correct": false, "reason": "No distortion of opponent’s view—it's semantic shift." },
+                  { "id": "o3", "text": "Meaning inversion fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["equivocation"],
+                "difficulty": 1,
+                "explainers": {
+                  "short": "Switches sense of 'free'.",
+                  "long": "Equivocation often involves subtle shifts in common words."
+                }
+              },
+              {
+                "id": "scn-088",
+                "title": "Lawyers Are Liars",
+                "text": "An argument claims that because 'lawyer' and 'liar' sound similar, lawyers must be dishonest.",
+                "options": [
+                  { "id": "o1", "text": "Equivocation", "is_correct": true, "reason": "Conflates phonetic similarity with meaning." },
+                  { "id": "o2", "text": "Ad hominem", "is_correct": false, "reason": "While it's insulting, the main error is semantic confusion." },
+                  { "id": "o3", "text": "Phonetic fallacy", "is_correct": false, "reason": "Fabricated distractor." }
+                ],
+                "answers": ["equivocation"],
+                "difficulty": 2,
+                "explainers": {
+                  "short": "Word similarity ≠ semantic link.",
+                  "long": "Equivocation can exploit sound-alike words to mislead."
+                }
+              },
+              {
+                  "id": "scn-093",
+                  "title": "Percentages Without Context",
+                  "text": "An ad for a crime-prevention gadget claims it reduced neighborhood burglaries by 50%, without noting that there were only two burglaries last year.",
+                  "options": [
+                    { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They omit the low starting frequency, making the percentage misleading." },
+                    { "id": "o2", "text": "Cherry picking", "is_correct": false, "reason": "No selective time window, just missing prevalence context." },
+                    { "id": "o3", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity is not mentioned." }
+                  ],
+                  "answers": ["base_rate_neglect"],
+                  "difficulty": 2,
+                  "explainers": {
+                    "short": "Percentages can hide small base numbers.",
+                    "long": "Without knowing the base rate, percentage changes can be meaningless or misleading."
+                  }
+                },
+                {
+                  "id": "scn-094",
+                  "title": "The Rare Disease Panic",
+                  "text": "A health blog warns that '20% of tested people' had a rare disease, without noting the group was chosen from hospital patients already showing symptoms.",
+                  "options": [
+                    { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignore the special, high-risk population tested." },
+                    { "id": "o2", "text": "Selection bias", "is_correct": false, "reason": "Selection bias overlaps but the main flaw is ignoring base rate context." },
+                    { "id": "o3", "text": "Post hoc", "is_correct": false, "reason": "No temporal causation claim is made." }
+                  ],
+                  "answers": ["base_rate_neglect"],
+                  "difficulty": 2,
+                  "explainers": {
+                    "short": "Sample composition matters for interpreting stats.",
+                    "long": "Without considering who was tested, prevalence claims can be grossly inflated."
+                  }
+                },
+                {
+                  "id": "scn-095",
+                  "title": "Test Results Alarm",
+                  "text": "A news site says, 'Half of those who tested positive for the virus were vaccinated,' ignoring that almost everyone in the country is vaccinated.",
+                  "options": [
+                    { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignore the overwhelming base rate of vaccination." },
+                    { "id": "o2", "text": "False equivalence", "is_correct": false, "reason": "No flawed comparison is made." },
+                    { "id": "o3", "text": "Appeal to fear", "is_correct": false, "reason": "While it might scare, the core flaw is statistical context omission." }
+                  ],
+                  "answers": ["base_rate_neglect"],
+                  "difficulty": 1,
+                  "explainers": {
+                    "short": "High prevalence in a group skews raw numbers.",
+                    "long": "When most people belong to a group, many cases will come from that group even if risk is lower."
+                  }
+                },
+                {
+                  "id": "scn-096",
+                  "title": "The Winning College",
+                  "text": "An article says graduates of a particular college earn twice the national average, ignoring that the school admits only top-scoring students.",
+                  "options": [
+                    { "id": "o1", "text": "Base rate neglect", "is_correct": true, "reason": "They ignore the high-achieving base population." },
+                    { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "No expert claim is involved." },
+                    { "id": "o3", "text": "Hasty generalization", "is_correct": false, "reason": "No leap from a small sample—just missing base characteristics." }
+                  ],
+                  "answers": ["base_rate_neglect"],
+                  "difficulty": 2,
+                  "explainers": {
+                    "short": "Outcome is tied to initial selection, not the program alone.",
+                    "long": "Ignoring the base characteristics of the admitted students creates an inflated impression of the program's effect."
+                  }
+                },
+                {
+                  "id": "scn-097",
+                  "title": "From Recycling to Totalitarianism",
+                  "text": "A columnist warns that requiring recycling bins will 'open the door to complete government control over our lives.'",
+                  "options": [
+                    { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "They predict an extreme outcome without showing how it follows inevitably." },
+                    { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "They stay on topic but exaggerate consequences." },
+                    { "id": "o3", "text": "Appeal to tradition", "is_correct": false, "reason": "No reference to 'we've always done it this way'." }
+                  ],
+                  "answers": ["slippery_slope"],
+                  "difficulty": 2,
+                  "explainers": {
+                    "short": "Predicts extreme results from minor steps.",
+                    "long": "Slippery slope arguments imply inevitability without causal evidence."
+                  }
+                },
+                {
+                  "id": "scn-098",
+                  "title": "Curfew Means No Freedom",
+                  "text": "An activist claims that introducing a 10 PM curfew will eventually lead to a 24-hour lockdown every day.",
+                  "options": [
+                    { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "They assume escalation to a maximum extreme without proof." },
+                    { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "They don't reduce choices; they predict escalation." },
+                    { "id": "o3", "text": "Appeal to fear", "is_correct": false, "reason": "Fear is used, but the main flaw is inevitability claim." }
+                  ],
+                  "answers": ["slippery_slope"],
+                  "difficulty": 2,
+                  "explainers": {
+                    "short": "Not all measures lead to extremes.",
+                    "long": "Without a logical necessity chain, claiming small changes inevitably lead to severe outcomes is fallacious."
+                  }
+                },
+                {
+                  "id": "scn-099",
+                  "title": "From Tax to Tyranny",
+                  "text": "A politician says, 'If we allow this small tax increase, soon they’ll take 90% of your income.'",
+                  "options": [
+                    { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "Assumes continuous escalation without evidence." },
+                    { "id": "o2", "text": "Hasty generalization", "is_correct": false, "reason": "Not based on small-sample reasoning." },
+                    { "id": "o3", "text": "Circular reasoning", "is_correct": false, "reason": "No premise-conclusion loop here." }
+                  ],
+                  "answers": ["slippery_slope"],
+                  "difficulty": 1,
+                  "explainers": {
+                    "short": "Predicts extreme financial burden without mechanism.",
+                    "long": "Slippery slope warnings require proof of inevitable escalation, which is absent here."
+                  }
+                },
+                {
+                  "id": "scn-100",
+                  "title": "Ban This and You’ll Ban Everything",
+                  "text": "A pundit argues, 'If you ban plastic straws, you’ll soon ban all consumer products made of plastic.'",
+                  "options": [
+                    { "id": "o1", "text": "Slippery slope", "is_correct": true, "reason": "Jumps from one narrow ban to a sweeping one without proof." },
+                    { "id": "o2", "text": "Straw man", "is_correct": false, "reason": "No distortion of an opponent's argument." },
+                    { "id": "o3", "text": "Appeal to popularity", "is_correct": false, "reason": "No popularity claim involved." }
+                  ],
+                  "answers": ["slippery_slope"],
+                  "difficulty": 1,
+                  "explainers": {
+                    "short": "One ban does not entail banning all related products.",
+                    "long": "The argument assumes a chain reaction without showing how each step necessarily follows."
+                  }
+                },
+                {
+                    "id": "scn-101",
+                    "title": "Imperfect Equals Worthless",
+                    "text": "A reviewer says, 'This phone isn’t waterproof, so it’s a terrible device,' ignoring its many other strengths.",
+                    "options": [
+                      { "id": "o1", "text": "False equivalence", "is_correct": false, "reason": "No comparison is drawn—just overgeneralization." },
+                      { "id": "o2", "text": "False dilemma", "is_correct": true, "reason": "Frames it as either perfect or bad, ignoring middle ground." },
+                      { "id": "o3", "text": "Hasty generalization", "is_correct": false, "reason": "Not based on a small sample—it's a two-option framing." }
+                    ],
+                    "answers": ["false_dilemma"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Excludes moderate assessments.",
+                      "long": "False dilemmas remove nuance by insisting on binary outcomes."
+                    }
+                  },
+                  {
+                    "id": "scn-102",
+                    "title": "Either Graduate or Fail in Life",
+                    "text": "A parent warns their teenager that 'If you don’t finish college, you’ll never succeed in anything.'",
+                    "options": [
+                      { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "Ignores alternative paths to success." },
+                      { "id": "o2", "text": "Appeal to emotion", "is_correct": false, "reason": "Fear is present but the core flaw is the binary framing." },
+                      { "id": "o3", "text": "Circular reasoning", "is_correct": false, "reason": "No restating of the claim as proof." }
+                    ],
+                    "answers": ["false_dilemma"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Life outcomes are rarely binary.",
+                      "long": "False dilemmas oversimplify by implying only two extreme outcomes exist."
+                    }
+                  },
+                  {
+                    "id": "scn-103",
+                    "title": "All or Nothing in Sports",
+                    "text": "A sports fan insists, 'If our team doesn’t win the championship, this entire season is a waste.'",
+                    "options": [
+                      { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "Presents only total victory or total failure as options." },
+                      { "id": "o2", "text": "Slippery slope", "is_correct": false, "reason": "No chain of events is predicted." },
+                      { "id": "o3", "text": "Appeal to popularity", "is_correct": false, "reason": "No reliance on popularity." }
+                    ],
+                    "answers": ["false_dilemma"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Intermediate outcomes are dismissed.",
+                      "long": "False dilemmas force an issue into two polar outcomes, erasing nuance."
+                    }
+                  },
+                  {
+                    "id": "scn-104",
+                    "title": "Security or Privacy, Choose One",
+                    "text": "A tech company argues that society must either have total online surveillance or total chaos from cybercrime.",
+                    "options": [
+                      { "id": "o1", "text": "False dilemma", "is_correct": true, "reason": "There are many security measures short of total surveillance." },
+                      { "id": "o2", "text": "Appeal to fear", "is_correct": false, "reason": "Fear is invoked, but the structural flaw is binary framing." },
+                      { "id": "o3", "text": "Straw man", "is_correct": false, "reason": "No misrepresentation of an opposing argument." }
+                    ],
+                    "answers": ["false_dilemma"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Forces a false choice between two extremes.",
+                      "long": "False dilemmas exclude possible middle-ground solutions to make one option seem inevitable."
+                    }
+                  },
+                  {
+                    "id": "scn-105",
+                    "title": "The Miracle Meal",
+                    "text": "A diet influencer says their meal plan is the only way to lose weight because it worked for them and their friends.",
+                    "options": [
+                      { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "Uses personal experiences as universal proof." },
+                      { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "No expert credentials invoked." },
+                      { "id": "o3", "text": "Cherry picking", "is_correct": false, "reason": "No selective exclusion of counterexamples, just overgeneralization from personal stories." }
+                    ],
+                    "answers": ["anecdotal_fallacy"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Personal stories don’t equal universal evidence.",
+                      "long": "Anecdotal fallacy mistakes vivid but unrepresentative examples for proof."
+                    }
+                  },
+                  {
+                    "id": "scn-106",
+                    "title": "One Bad Flight Means All Airlines Are Unsafe",
+                    "text": "After a turbulent flight, a traveler concludes that flying is unsafe in general.",
+                    "options": [
+                      { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "One personal bad experience is used as universal evidence." },
+                      { "id": "o2", "text": "Hasty generalization", "is_correct": false, "reason": "Overlap exists, but the emphasis here is personal anecdote." },
+                      { "id": "o3", "text": "Base rate neglect", "is_correct": false, "reason": "They don’t ignore statistics—they don’t use them at all." }
+                    ],
+                    "answers": ["anecdotal_fallacy"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "A single event doesn’t define the whole category.",
+                      "long": "Anecdotal reasoning overgeneralizes from personal experience without representative data."
+                    }
+                  },
+                  {
+                    "id": "scn-107",
+                    "title": "The Celebrity Example",
+                    "text": "An actor claims a herbal tea cured their chronic illness, and fans take it as proof it works for everyone.",
+                    "options": [
+                      { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "Uses one individual’s experience as broad evidence." },
+                      { "id": "o2", "text": "Appeal to irrelevant authority", "is_correct": false, "reason": "Authority is invoked, but the core flaw is anecdotal reasoning." },
+                      { "id": "o3", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity is not the main argument." }
+                    ],
+                    "answers": ["anecdotal_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Celebrity stories aren’t scientific proof.",
+                      "long": "Anecdotes from high-profile individuals can seem persuasive but remain unrepresentative."
+                    }
+                  },
+                  {
+                    "id": "scn-108",
+                    "title": "From One Review to the Whole Store",
+                    "text": "After one poor online review, you conclude the entire store is bad.",
+                    "options": [
+                      { "id": "o1", "text": "Anecdotal fallacy", "is_correct": true, "reason": "One isolated opinion is taken as proof for all experiences." },
+                      { "id": "o2", "text": "Cherry picking", "is_correct": false, "reason": "Cherry picking would involve intentionally selecting positive or negative examples while excluding others." },
+                      { "id": "o3", "text": "Slippery slope", "is_correct": false, "reason": "No prediction of extreme consequences." }
+                    ],
+                    "answers": ["anecdotal_fallacy"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "One review isn’t representative of all customers.",
+                      "long": "Anecdotal reasoning can distort perception by overvaluing singular stories over aggregated evidence."
+                    }
+                  },
+                  {
+                    "id": "scn-109",
+                    "title": "The Roulette Table Myth",
+                    "text": "At a casino, a player insists that because red has come up six times in a row, black is 'guaranteed' next.",
+                    "options": [
+                      { "id": "o1", "text": "Gambler’s fallacy", "is_correct": true, "reason": "Assumes prior independent spins change future odds." },
+                      { "id": "o2", "text": "Hot-hand fallacy", "is_correct": false, "reason": "Hot-hand predicts continuation of streaks, not reversal." },
+                      { "id": "o3", "text": "Appeal to probability", "is_correct": false, "reason": "This is about misunderstanding independence, not assuming likely events will occur." }
+                    ],
+                    "answers": ["gambler_fallacy"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Independent events aren’t influenced by past results.",
+                      "long": "The gambler’s fallacy is believing that deviations in the short term will self-correct, even though each spin is independent."
+                    }
+                  },
+                  {
+                    "id": "scn-110",
+                    "title": "The Coin Toss Pressure",
+                    "text": "After eight consecutive heads, a bettor doubles their stake on tails, convinced it 'must be next.'",
+                    "options": [
+                      { "id": "o1", "text": "Gambler’s fallacy", "is_correct": true, "reason": "Assumes a balancing is due after a streak." },
+                      { "id": "o2", "text": "Base rate neglect", "is_correct": false, "reason": "Base rate isn’t relevant; coin flips are symmetrical probabilities." },
+                      { "id": "o3", "text": "Survivorship bias", "is_correct": false, "reason": "Not about ignoring failed cases." }
+                    ],
+                    "answers": ["gambler_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Streaks don’t make the opposite outcome more probable.",
+                      "long": "A fair coin’s chance of heads or tails remains 50% regardless of prior results."
+                    }
+                  },
+                  {
+                    "id": "scn-111",
+                    "title": "The Sports Bet Switch",
+                    "text": "A fan switches their bet to the losing team mid-season, thinking their luck will 'even out soon.'",
+                    "options": [
+                      { "id": "o1", "text": "Gambler’s fallacy", "is_correct": true, "reason": "Predicts reversal due to perceived streak imbalance." },
+                      { "id": "o2", "text": "Regression to the mean", "is_correct": false, "reason": "Regression is statistical tendency, not belief-based reversal prediction." },
+                      { "id": "o3", "text": "Appeal to tradition", "is_correct": false, "reason": "No reference to past customs as justification." }
+                    ],
+                    "answers": ["gambler_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Predicting reversal from a streak misreads probability.",
+                      "long": "Regression to the mean describes averages over time; the gambler’s fallacy is a cognitive bias about random events."
+                    }
+                  },
+                  {
+                    "id": "scn-112",
+                    "title": "The Lottery Numbers Switch",
+                    "text": "After playing the same lottery numbers for years without winning, someone changes them because 'they’re clearly unlucky now.'",
+                    "options": [
+                      { "id": "o1", "text": "Gambler’s fallacy", "is_correct": true, "reason": "Belief that prior non-occurrence makes future occurrence less likely." },
+                      { "id": "o2", "text": "Post hoc (false cause)", "is_correct": false, "reason": "Not about cause-effect, but randomness and perceived patterns." },
+                      { "id": "o3", "text": "Hot-hand fallacy", "is_correct": false, "reason": "Hot-hand predicts continuation, not avoidance." }
+                    ],
+                    "answers": ["gambler_fallacy"],
+                    "difficulty": 3,
+                    "explainers": {
+                      "short": "Random draws aren’t influenced by past misses.",
+                      "long": "Changing numbers due to 'unluckiness' reflects the gambler’s fallacy—past failures don’t alter independent probabilities."
+                    }
+                  },
+                  {
+                    "id": "scn-113",
+                    "title": "Crypto Guru Cardiologist?",
+                    "text": "A wellness brand cites a famous cardiologist to claim a crypto investment is 'healthy for your finances.'",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to irrelevant authority", "is_correct": true, "reason": "Expertise in cardiology is unrelated to finance." },
+                      { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "Authority per se isn’t the issue; it’s the wrong domain." },
+                      { "id": "o3", "text": "Status bias", "is_correct": false, "reason": "Status alone isn’t the argument structure here." }
+                    ],
+                    "answers": ["appeal_to_irrelevant_authority"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Expertise must be domain-relevant.",
+                      "long": "Borrowed credibility from an unrelated field doesn’t provide evidence for the claim in question."
+                    }
+                  },
+                  {
+                    "id": "scn-114",
+                    "title": "Actor-Endorsed Antidepressant",
+                    "text": "An ad quotes a beloved actor praising a prescription drug’s effects despite no medical training.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to irrelevant authority", "is_correct": true, "reason": "Acting fame does not confer pharmacological expertise." },
+                      { "id": "o2", "text": "Anecdotal fallacy", "is_correct": false, "reason": "The core error is misplaced authority, not just an anecdote." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "No topic shift is used." }
+                    ],
+                    "answers": ["appeal_to_irrelevant_authority"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Celebrity ≠ clinical evidence.",
+                      "long": "Endorsements by non-experts can be persuasive but carry no probative medical weight."
+                    }
+                  },
+                  {
+                    "id": "scn-115",
+                    "title": "Physicist on Parenting",
+                    "text": "A best-selling book defers to a Nobel physicist to adjudicate child-development methods.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to irrelevant authority", "is_correct": true, "reason": "Physics expertise doesn’t transfer to developmental psychology." },
+                      { "id": "o2", "text": "Appeal to tradition", "is_correct": false, "reason": "No reliance on custom." },
+                      { "id": "o3", "text": "Straw man", "is_correct": false, "reason": "No misrepresentation of an opposing view." }
+                    ],
+                    "answers": ["appeal_to_irrelevant_authority"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Correct field matters.",
+                      "long": "Cross-domain appeals conflate prestige with relevance, short-circuiting evaluation of actual evidence."
+                    }
+                  },
+                  {
+                    "id": "scn-116",
+                    "title": "Influencer Says 'Lab-Grade'",
+                    "text": "A tech influencer declares a supplement 'lab-grade' and effective, citing their product-review experience.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to irrelevant authority", "is_correct": true, "reason": "Reviewing gadgets doesn’t confer biomedical expertise." },
+                      { "id": "o2", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity isn’t the key premise used." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "No flawed comparison is made." }
+                    ],
+                    "answers": ["appeal_to_irrelevant_authority"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Domain boundaries matter.",
+                      "long": "Authority claims must be anchored to demonstrable expertise in the specific domain of the claim."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-117",
+                    "title": "You Did It Too",
+                    "text": "Pressed about misleading statistics, a spokesperson replies, “Your organization misled last year—so who are you to judge?”",
+                    "options": [
+                      { "id": "o1", "text": "Tu quoque", "is_correct": true, "reason": "Accuses hypocrisy instead of addressing the charge." },
+                      { "id": "o2", "text": "Ad hominem", "is_correct": false, "reason": "Personal attack is secondary; the hypocrisy pivot is central." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "It’s a specific hypocrisy deflection, not a generic topic shift." }
+                    ],
+                    "answers": ["tu_quoque"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Hypocrisy ≠ refutation.",
+                      "long": "Tu quoque evades the argument’s merits by focusing on the opponent’s inconsistency."
+                    }
+                  },
+                  {
+                    "id": "scn-118",
+                    "title": "Who Are You to Talk?",
+                    "text": "When criticized for unsafe hiring practices, a firm answers, “Your workplace had an accident last year.”",
+                    "options": [
+                      { "id": "o1", "text": "Tu quoque", "is_correct": true, "reason": "Deflects by alleging the critic’s inconsistency." },
+                      { "id": "o2", "text": "Straw man", "is_correct": false, "reason": "No distortion of the original claim." },
+                      { "id": "o3", "text": "Appeal to tradition", "is_correct": false, "reason": "No reliance on custom/heritage." }
+                    ],
+                    "answers": ["tu_quoque"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Deflection to critic’s behavior.",
+                      "long": "Even if the critic is inconsistent, that doesn’t address the argument’s truth."
+                    }
+                  },
+                  {
+                    "id": "scn-119",
+                    "title": "Family Debate",
+                    "text": "A sibling rejects concerns about risky driving: “You speed sometimes too.”",
+                    "options": [
+                      { "id": "o1", "text": "Tu quoque", "is_correct": true, "reason": "Hypocrisy charge replaces engagement with the concern." },
+                      { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "No restricted set of choices." },
+                      { "id": "o3", "text": "Anecdotal fallacy", "is_correct": false, "reason": "Not about using a single story as evidence." }
+                    ],
+                    "answers": ["tu_quoque"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Critic’s flaws don’t settle the claim.",
+                      "long": "The truth of a proposition isn’t determined by the critic’s behavior."
+                    }
+                  },
+                  {
+                    "id": "scn-120",
+                    "title": "Recycling Policy",
+                    "text": "An official says, “Environmentalists also fly a lot—so their recycling plan is invalid.”",
+                    "options": [
+                      { "id": "o1", "text": "Tu quoque", "is_correct": true, "reason": "Targets perceived hypocrisy instead of the policy’s merits." },
+                      { "id": "o2", "text": "Ad hominem", "is_correct": false, "reason": "Primary structure is hypocrisy deflection." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "It’s a specific form of relevance error (hypocrisy), not a generic topic change." }
+                    ],
+                    "answers": ["tu_quoque"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Hypocrisy talk ≠ policy analysis.",
+                      "long": "The claim’s truth does not hinge on advocates living perfectly by it."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-121",
+                    "title": "Only the Best Quarters",
+                    "text": "A startup’s pitch deck shows only three peak quarters to prove 'consistent growth.'",
+                    "options": [
+                      { "id": "o1", "text": "Cherry picking", "is_correct": true, "reason": "Selectively reports favorable slices while omitting the rest." },
+                      { "id": "o2", "text": "Survivorship bias", "is_correct": false, "reason": "Not about excluding failures from the sample set." },
+                      { "id": "o3", "text": "Base rate neglect", "is_correct": false, "reason": "No prevalence information is misused." }
+                    ],
+                    "answers": ["cherry_picking"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Selective evidence misleads.",
+                      "long": "Choosing only favorable windows distorts the underlying trend."
+                    }
+                  },
+                  {
+                    "id": "scn-122",
+                    "title": "Pick Your Studies",
+                    "text": "A blog cites two supportive studies and ignores several larger, higher-quality null results.",
+                    "options": [
+                      { "id": "o1", "text": "Cherry picking", "is_correct": true, "reason": "Cites confirmatory hits while omitting disconfirming evidence." },
+                      { "id": "o2", "text": "Confirmation bias", "is_correct": false, "reason": "Related mindset, but here the argument selectively reports evidence." },
+                      { "id": "o3", "text": "Appeal to novelty", "is_correct": false, "reason": "Newness is not the basis." }
+                    ],
+                    "answers": ["cherry_picking"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Selection ≠ synthesis.",
+                      "long": "Evidence appraisal requires considering the full body of data, not only favorable slices."
+                    }
+                  },
+                  {
+                    "id": "scn-123",
+                    "title": "The Happy Customers",
+                    "text": "A landing page shows only glowing testimonials while omitting a large number of neutral/negative reviews.",
+                    "options": [
+                      { "id": "o1", "text": "Cherry picking", "is_correct": true, "reason": "Filters out counterevidence to create an inflated impression." },
+                      { "id": "o2", "text": "Appeal to emotion", "is_correct": false, "reason": "Emotion may be used, but the core is selective reporting." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "No flawed comparison is central." }
+                    ],
+                    "answers": ["cherry_picking"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Only positives shown.",
+                      "long": "A representative sample, not a curated highlight reel, is needed to justify general claims."
+                    }
+                  },
+                  {
+                    "id": "scn-124",
+                    "title": "Best Cities Ranking",
+                    "text": "An article claims a city is 'the fittest' based on parks per capita, ignoring obesity and activity data.",
+                    "options": [
+                      { "id": "o1", "text": "Cherry picking", "is_correct": true, "reason": "Chooses one favorable metric while excluding other relevant ones." },
+                      { "id": "o2", "text": "Composition fallacy", "is_correct": false, "reason": "Not a parts→whole inference." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "No irrelevant topic shift." }
+                    ],
+                    "answers": ["cherry_picking"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Metric selection bias.",
+                      "long": "Choosing convenient indicators while ignoring others yields a biased overall conclusion."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-125",
+                    "title": "Believe Me Unless You Can Disprove",
+                    "text": "A supplement maker asserts efficacy and challenges critics to prove the capsules don’t work.",
+                    "options": [
+                      { "id": "o1", "text": "Burden of proof", "is_correct": true, "reason": "Shifts evidential burden to the skeptic." },
+                      { "id": "o2", "text": "Appeal to popularity", "is_correct": false, "reason": "Popularity isn’t the cited reason." },
+                      { "id": "o3", "text": "Ad hominem", "is_correct": false, "reason": "No personal attack is central." }
+                    ],
+                    "answers": ["burden_of_proof"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Claimant must supply evidence.",
+                      "long": "Positive claims require positive support; absence of refutation is not proof."
+                    }
+                  },
+                  {
+                    "id": "scn-126",
+                    "title": "The Startup Pitch",
+                    "text": "Founders declare their AI 'outperforms all baselines' but provide no benchmarks, saying, 'Show us a failure, then we’ll talk.'",
+                    "options": [
+                      { "id": "o1", "text": "Burden of proof", "is_correct": true, "reason": "They avoid supplying evidence and demand disproof." },
+                      { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "No forced binary choice." },
+                      { "id": "o3", "text": "Straw man", "is_correct": false, "reason": "No misrepresentation of an opponent." }
+                    ],
+                    "answers": ["burden_of_proof"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Extraordinary claims need evidence.",
+                      "long": "Shifting the burden undermines evidential standards in evaluation."
+                    }
+                  },
+                  {
+                    "id": "scn-127",
+                    "title": "Paranormal Challenge",
+                    "text": "A TV guest claims psychic powers and insists skeptics must demonstrate a natural explanation.",
+                    "options": [
+                      { "id": "o1", "text": "Burden of proof", "is_correct": true, "reason": "The claimant demands disproof rather than offering proof." },
+                      { "id": "o2", "text": "Appeal to emotion", "is_correct": false, "reason": "Emotion isn’t the central tactic." },
+                      { "id": "o3", "text": "Equivocation", "is_correct": false, "reason": "No term-shifting occurs." }
+                    ],
+                    "answers": ["burden_of_proof"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "He who asserts must prove.",
+                      "long": "Reversing evidential responsibility is a classic argumentative mistake."
+                    }
+                  },
+                  {
+                    "id": "scn-128",
+                    "title": "Unfalsifiable Product",
+                    "text": "A device 'balances your energy,' and the company says any negative tests were 'done wrong' unless you can prove otherwise.",
+                    "options": [
+                      { "id": "o1", "text": "Burden of proof", "is_correct": true, "reason": "They immunize the claim and demand refutation." },
+                      { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "No topic shift is used here." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "No flawed comparison is central." }
+                    ],
+                    "answers": ["burden_of_proof"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Immunized claims dodge evidence.",
+                      "long": "Burden-shifting often arrives with unfalsifiable framing, blocking critical appraisal."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-129",
+                    "title": "Tearful Testimonial",
+                    "text": "A commercial shows a tearful story of recovery to sell an untested device, offering no trials or data.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to emotion", "is_correct": true, "reason": "Relies on affect instead of evidence." },
+                      { "id": "o2", "text": "Anecdotal fallacy", "is_correct": false, "reason": "Anecdote appears, but the key move is emotional persuasion replacing reasons." },
+                      { "id": "o3", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity isn’t invoked." }
+                    ],
+                    "answers": ["appeal_to_emotion"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Emotion can persuade without proof.",
+                      "long": "Affective narratives increase assent even when evidential content is absent."
+                    }
+                  },
+                  {
+                    "id": "scn-130",
+                    "title": "Fear, Not Figures",
+                    "text": "A safety campaign uses graphic fear imagery but provides no incident statistics or comparative risks.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to emotion", "is_correct": true, "reason": "Fear-arousal substitutes for argument." },
+                      { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "No subject change; just emotional leverage." },
+                      { "id": "o3", "text": "Post hoc (false cause)", "is_correct": false, "reason": "No causal inference from sequence is claimed." }
+                    ],
+                    "answers": ["appeal_to_emotion"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Arousal ≠ analysis.",
+                      "long": "Affect can change attitudes without improving truth-tracking."
+                    }
+                  },
+                  {
+                    "id": "scn-131",
+                    "title": "Pride Over Policy",
+                    "text": "A law is defended with stirring patriotic imagery rather than addressing cost-benefit analyses.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to emotion", "is_correct": true, "reason": "Uses pride to cover for missing reasons." },
+                      { "id": "o2", "text": "False dilemma", "is_correct": false, "reason": "No binary frame is asserted." },
+                      { "id": "o3", "text": "Appeal to tradition", "is_correct": false, "reason": "No reliance on past practice as a reason." }
+                    ],
+                    "answers": ["appeal_to_emotion"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Symbolic cues instead of evidence.",
+                      "long": "Invoking identity and pride can mask the absence of evaluative content."
+                    }
+                  },
+                  {
+                    "id": "scn-132",
+                    "title": "Heartstrings for Donations",
+                    "text": "A fundraiser shows heartbreaking footage but gives no details about impact metrics or where money goes.",
+                    "options": [
+                      { "id": "o1", "text": "Appeal to emotion", "is_correct": true, "reason": "Relies on sadness/compassion over accountability data." },
+                      { "id": "o2", "text": "Cherry picking", "is_correct": false, "reason": "No selective evidence claim is central." },
+                      { "id": "o3", "text": "Ad hominem", "is_correct": false, "reason": "No personal attack here." }
+                    ],
+                    "answers": ["appeal_to_emotion"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Pathos without logos.",
+                      "long": "Emotional appeals can drive behavior even when information for informed choice is missing."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-133",
+                    "title": "Equal? Really?",
+                    "text": "A column equates a misreported statistic with a long, deliberate disinformation campaign, calling them 'equally problematic.'",
+                    "options": [
+                      { "id": "o1", "text": "False equivalence", "is_correct": true, "reason": "Treats cases as equal despite differences in intent and scale." },
+                      { "id": "o2", "text": "Straw man", "is_correct": false, "reason": "No misrepresentation of an opponent’s claim." },
+                      { "id": "o3", "text": "Equivocation", "is_correct": false, "reason": "No shifting meaning of a term." }
+                    ],
+                    "answers": ["false_equivalence"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Superficial similarity hides key differences.",
+                      "long": "Evaluations should weigh magnitude, intent, and systemic impact, not just surface features."
+                    }
+                  },
+                  {
+                    "id": "scn-134",
+                    "title": "Two Sides of Different Coins",
+                    "text": "An op-ed claims a one-off filing error is as bad as sustained tax fraud because 'rules were broken in both.'",
+                    "options": [
+                      { "id": "o1", "text": "False equivalence", "is_correct": true, "reason": "Conflates scale and intent differences." },
+                      { "id": "o2", "text": "Post hoc (false cause)", "is_correct": false, "reason": "No sequence-based causal claim." },
+                      { "id": "o3", "text": "Appeal to tradition", "is_correct": false, "reason": "No reliance on custom." }
+                    ],
+                    "answers": ["false_equivalence"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Not all rule-breaking is equal.",
+                      "long": "Moral and practical assessments depend on severity, recurrence, and consequences."
+                    }
+                  },
+                  {
+                    "id": "scn-135",
+                    "title": "Both Sides Journalism",
+                    "text": "A piece treats a fringe claim and a robust consensus as 'two equally valid perspectives.'",
+                    "options": [
+                      { "id": "o1", "text": "False equivalence", "is_correct": true, "reason": "Balances attention, not evidential weight." },
+                      { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "No topic diversion; it’s faulty parity." },
+                      { "id": "o3", "text": "Appeal to authority", "is_correct": false, "reason": "No reliance on expert testimony per se." }
+                    ],
+                    "answers": ["false_equivalence"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Parity ≠ parity of evidence.",
+                      "long": "Treating minority views as equal to consensus misleads audiences about evidential support."
+                    }
+                  },
+                  {
+                    "id": "scn-136",
+                    "title": "Equating Harms",
+                    "text": "A debate equates a late email with an act of sabotage because 'both are unprofessional.'",
+                    "options": [
+                      { "id": "o1", "text": "False equivalence", "is_correct": true, "reason": "Conflates trivial and severe conduct." },
+                      { "id": "o2", "text": "Tu quoque", "is_correct": false, "reason": "No hypocrisy deflection used." },
+                      { "id": "o3", "text": "Cherry picking", "is_correct": false, "reason": "No selective evidence is central." }
+                    ],
+                    "answers": ["false_equivalence"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Superficial sameness ≠ substantive sameness.",
+                      "long": "Sound comparisons weigh magnitude, context, intent, and consequences."
+                    }
+                  },
+                  {
+                    "id": "scn-137",
+                    "title": "All-Stars, Unbeatable?",
+                    "text": "Because every engineer on a new team is top-rated, the VP claims the team will dominate every project.",
+                    "options": [
+                      { "id": "o1", "text": "Composition fallacy", "is_correct": true, "reason": "Infers whole-team outcomes from individual traits." },
+                      { "id": "o2", "text": "Division fallacy", "is_correct": false, "reason": "That’s whole → parts; here it’s parts → whole." },
+                      { "id": "o3", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity isn’t the premise." }
+                    ],
+                    "answers": ["composition_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Parts’ excellence ≠ group excellence.",
+                      "long": "Group performance depends on coordination, structure, and fit—not only individual ratings."
+                    }
+                  },
+                  {
+                    "id": "scn-138",
+                    "title": "Efficient Pieces, Net-Zero Building",
+                    "text": "An architect argues the building must be net-zero because each appliance inside is energy efficient.",
+                    "options": [
+                      { "id": "o1", "text": "Composition fallacy", "is_correct": true, "reason": "Attributes properties of components to the aggregate." },
+                      { "id": "o2", "text": "Base rate neglect", "is_correct": false, "reason": "No prevalence rates are involved." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "Not a flawed comparison of categories." }
+                    ],
+                    "answers": ["composition_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Efficient parts don’t guarantee efficient whole.",
+                      "long": "System-level losses and interactions may swamp component efficiencies."
+                    }
+                  },
+                  {
+                    "id": "scn-139",
+                    "title": "Hot Stocks, Hot Fund—Forever",
+                    "text": "Since each stock in a fund beat the market last quarter, the manager says the fund will always beat the market.",
+                    "options": [
+                      { "id": "o1", "text": "Composition fallacy", "is_correct": true, "reason": "Infers enduring aggregate performance from recent part performance." },
+                      { "id": "o2", "text": "Post hoc (false cause)", "is_correct": false, "reason": "It’s not sequence-based causation." },
+                      { "id": "o3", "text": "Gambler’s fallacy", "is_correct": false, "reason": "No short-run balancing claim." }
+                    ],
+                    "answers": ["composition_fallacy"],
+                    "difficulty": 3,
+                    "explainers": {
+                      "short": "Recent part wins ≠ future whole wins.",
+                      "long": "Diversification, weights, and mean reversion can erase component outperformance."
+                    }
+                  },
+                  {
+                    "id": "scn-140",
+                    "title": "Young Team, Fast Team",
+                    "text": "A coach claims the squad will be the fastest in the league because every player is under 25.",
+                    "options": [
+                      { "id": "o1", "text": "Composition fallacy", "is_correct": true, "reason": "Assumes a collective property from member demographics." },
+                      { "id": "o2", "text": "Appeal to tradition", "is_correct": false, "reason": "No reliance on custom." },
+                      { "id": "o3", "text": "Anecdotal fallacy", "is_correct": false, "reason": "No singular story used as proof." }
+                    ],
+                    "answers": ["composition_fallacy"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Member traits don’t fix group outcomes.",
+                      "long": "Speed depends on training, roles, and tactics—not just age distribution."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-141",
+                    "title": "Safe City, Safe Street?",
+                    "text": "Because the city is rated 'very safe,' a landlord says every street in the area is safe at night.",
+                    "options": [
+                      { "id": "o1", "text": "Division fallacy", "is_correct": true, "reason": "Infers part properties from whole statistics." },
+                      { "id": "o2", "text": "Composition fallacy", "is_correct": false, "reason": "Direction is reversed here (whole → parts)." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "No topic diversion occurs." }
+                    ],
+                    "answers": ["division_fallacy"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Aggregate ≠ each sub-area.",
+                      "long": "City-level ratings can hide local hotspots and variance between streets."
+                    }
+                  },
+                  {
+                    "id": "scn-142",
+                    "title": "Top School, Perfect Teachers",
+                    "text": "A parent believes every teacher at a top-ranked school must be excellent.",
+                    "options": [
+                      { "id": "o1", "text": "Division fallacy", "is_correct": true, "reason": "Treats whole-school rating as uniform teacher quality." },
+                      { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "No expert is invoked as evidence." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "Not a faulty comparison." }
+                    ],
+                    "answers": ["division_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "High averages mask dispersion.",
+                      "long": "Even top institutions include variability across classrooms and departments."
+                    }
+                  },
+                  {
+                    "id": "scn-143",
+                    "title": "Rich Country, Rich Citizens",
+                    "text": "A commentator says that because the country’s GDP per capita is high, every resident must be well-off.",
+                    "options": [
+                      { "id": "o1", "text": "Division fallacy", "is_correct": true, "reason": "Infers individual wealth from national averages." },
+                      { "id": "o2", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity isn’t used as evidence." },
+                      { "id": "o3", "text": "Base rate neglect", "is_correct": false, "reason": "No prevalence misweighting of categories." }
+                    ],
+                    "answers": ["division_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Averages don’t describe everyone.",
+                      "long": "Income distributions are skewed; many individuals can be below average in wealthy countries."
+                    }
+                  },
+                  {
+                    "id": "scn-144",
+                    "title": "Profitable Company, Thriving Teams",
+                    "text": "An executive concludes each department must be thriving because the company’s profits hit a record.",
+                    "options": [
+                      { "id": "o1", "text": "Division fallacy", "is_correct": true, "reason": "Attributes whole performance to all subunits." },
+                      { "id": "o2", "text": "Composition fallacy", "is_correct": false, "reason": "That would be parts → whole." },
+                      { "id": "o3", "text": "Post hoc (false cause)", "is_correct": false, "reason": "No temporal-sequence claim." }
+                    ],
+                    "answers": ["division_fallacy"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Strong overall ≠ strong everywhere.",
+                      "long": "Cross-subsidies and uneven margins can disguise struggling teams."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-145",
+                    "title": "Breach? Look at Our Features!",
+                    "text": "Asked about a recent data breach, a CEO touts the app’s cool new features instead.",
+                    "options": [
+                      { "id": "o1", "text": "Red herring", "is_correct": true, "reason": "Changes the subject from security failure to feature set." },
+                      { "id": "o2", "text": "Straw man", "is_correct": false, "reason": "No distortion of the original concern." },
+                      { "id": "o3", "text": "Appeal to emotion", "is_correct": false, "reason": "No affective cue is central." }
+                    ],
+                    "answers": ["red_herring"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Irrelevant topic shift.",
+                      "long": "Diverting attention sidesteps evaluating the actual issue raised."
+                    }
+                  },
+                  {
+                    "id": "scn-146",
+                    "title": "Deficit? Talk About Scandals.",
+                    "text": "Pressed about the budget deficit, a candidate pivots to the opponent’s past scandals.",
+                    "options": [
+                      { "id": "o1", "text": "Red herring", "is_correct": true, "reason": "Introduces an unrelated topic to avoid the policy question." },
+                      { "id": "o2", "text": "Ad hominem", "is_correct": false, "reason": "Personal attack may occur, but the core move is topic diversion." },
+                      { "id": "o3", "text": "False dilemma", "is_correct": false, "reason": "No forced binary choice." }
+                    ],
+                    "answers": ["red_herring"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Distraction ≠ answer.",
+                      "long": "Changing topics prevents assessment of the claim under discussion."
+                    }
+                  },
+                  {
+                    "id": "scn-147",
+                    "title": "Safety Audit? Think of the Jobs.",
+                    "text": "When asked about a product’s safety defect, a spokesperson talks about how many jobs the company created.",
+                    "options": [
+                      { "id": "o1", "text": "Red herring", "is_correct": true, "reason": "Evades the safety issue by focusing on employment." },
+                      { "id": "o2", "text": "Appeal to tradition", "is_correct": false, "reason": "No reliance on past practice." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "No parity claim between unlike things." }
+                    ],
+                    "answers": ["red_herring"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Irrelevant benefit highlighted.",
+                      "long": "Job creation is orthogonal to whether the product is safe."
+                    }
+                  },
+                  {
+                    "id": "scn-148",
+                    "title": "Player Misconduct? Community Service!",
+                    "text": "A coach dodges questions about a player’s misconduct by praising the team’s charity work.",
+                    "options": [
+                      { "id": "o1", "text": "Red herring", "is_correct": true, "reason": "Shifts to unrelated positives to deflect the issue." },
+                      { "id": "o2", "text": "Tu quoque", "is_correct": false, "reason": "No hypocrisy charge is made." },
+                      { "id": "o3", "text": "Appeal to emotion", "is_correct": false, "reason": "Emotion is incidental; the key is diversion." }
+                    ],
+                    "answers": ["red_herring"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Topic change to unrelated virtue.",
+                      "long": "Virtue signaling can mask, but not resolve, the original allegation."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-149",
+                    "title": "Founder Legends Only",
+                    "text": "An article argues college is unnecessary by profiling a few billionaire dropouts and ignoring the base rate.",
+                    "options": [
+                      { "id": "o1", "text": "Survivorship bias", "is_correct": true, "reason": "Focuses on rare successes while excluding the many non-successes." },
+                      { "id": "o2", "text": "Anecdotal fallacy", "is_correct": false, "reason": "They’re not just anecdotes—failures are systematically omitted." },
+                      { "id": "o3", "text": "Cherry picking", "is_correct": false, "reason": "Close, but the key is missing non-survivors." }
+                    ],
+                    "answers": ["survivorship_bias"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Successes are visible; failures aren’t.",
+                      "long": "Sampling on the dependent variable distorts inferences about typical outcomes."
+                    }
+                  },
+                  {
+                    "id": "scn-150",
+                    "title": "Only Funds That Lived",
+                    "text": "A blog shows great mutual fund performance by analyzing only funds that still exist after 10 years.",
+                    "options": [
+                      { "id": "o1", "text": "Survivorship bias", "is_correct": true, "reason": "Dead/merged funds are excluded from the sample." },
+                      { "id": "o2", "text": "Cherry picking", "is_correct": false, "reason": "Beyond selective highlights, entire failures are missing." },
+                      { "id": "o3", "text": "Bandwagon effect", "is_correct": false, "reason": "Popularity isn’t the premise." }
+                    ],
+                    "answers": ["survivorship_bias"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Excluding failures inflates performance.",
+                      "long": "A representative dataset must include the non-survivors."
+                    }
+                  },
+                  {
+                    "id": "scn-151",
+                    "title": "Bullet Holes on Return",
+                    "text": "A museum exhibit argues armor should be thickest where returning WWII planes showed bullet holes.",
+                    "options": [
+                      { "id": "o1", "text": "Survivorship bias", "is_correct": true, "reason": "Planes that didn’t return aren’t represented in the sample." },
+                      { "id": "o2", "text": "Base rate neglect", "is_correct": false, "reason": "It’s not about prevalence rates." },
+                      { "id": "o3", "text": "Post hoc (false cause)", "is_correct": false, "reason": "No mere sequence claim." }
+                    ],
+                    "answers": ["survivorship_bias"],
+                    "difficulty": 3,
+                    "explainers": {
+                      "short": "Missing cases matter most.",
+                      "long": "Survivors reveal where hits were survivable, not where armor is most needed."
+                    }
+                  },
+                  {
+                    "id": "scn-152",
+                    "title": "Diet ‘Success’ Stories",
+                    "text": "A program touts success using only participant testimonials from those who completed 12 weeks.",
+                    "options": [
+                      { "id": "o1", "text": "Survivorship bias", "is_correct": true, "reason": "Dropouts and non-responders are excluded." },
+                      { "id": "o2", "text": "Appeal to emotion", "is_correct": false, "reason": "Emotion may appear, but the core is missing failures." },
+                      { "id": "o3", "text": "Anecdotal fallacy", "is_correct": false, "reason": "Beyond anecdotes, the sample is filtered by survival." }
+                    ],
+                    "answers": ["survivorship_bias"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Selective survival skews results.",
+                      "long": "Outcome claims need full-cohort analysis, not just completers."
+                    }
+                  },
+                  
+                  {
+                    "id": "scn-153",
+                    "title": "Premium Because Premium",
+                    "text": "A brand insists its product is premium because it’s a premium product.",
+                    "options": [
+                      { "id": "o1", "text": "Circular reasoning", "is_correct": true, "reason": "The conclusion restates the premise." },
+                      { "id": "o2", "text": "Equivocation", "is_correct": false, "reason": "No term is used with multiple meanings." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "No topic shift occurs." }
+                    ],
+                    "answers": ["circular_reasoning"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Restates claim as proof.",
+                      "long": "Assuming what needs proving adds no independent support to the argument."
+                    }
+                  },
+                  {
+                    "id": "scn-154",
+                    "title": "Trust Me, I’m Trustworthy",
+                    "text": "A consultant says, “You can trust my analysis because I’m a trustworthy analyst.”",
+                    "options": [
+                      { "id": "o1", "text": "Circular reasoning", "is_correct": true, "reason": "Uses the claim (trustworthiness) as its own evidence." },
+                      { "id": "o2", "text": "Appeal to authority", "is_correct": false, "reason": "Authority isn’t independent support here." },
+                      { "id": "o3", "text": "Begging the question", "is_correct": false, "reason": "Alias term; in this library, use Circular Reasoning." }
+                    ],
+                    "answers": ["circular_reasoning"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Premise = conclusion.",
+                      "long": "Arguments require premises that are not merely restatements of what’s asserted."
+                    }
+                  },
+                  {
+                    "id": "scn-155",
+                    "title": "Accurate Because Accurate",
+                    "text": "A manual declares its instructions are accurate because the manual says they’re accurate.",
+                    "options": [
+                      { "id": "o1", "text": "Circular reasoning", "is_correct": true, "reason": "Cites itself as the reason to believe itself." },
+                      { "id": "o2", "text": "Appeal to tradition", "is_correct": false, "reason": "No 'we’ve always done it' claim." },
+                      { "id": "o3", "text": "False equivalence", "is_correct": false, "reason": "No comparison is central." }
+                    ],
+                    "answers": ["circular_reasoning"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Self-reference isn’t evidence.",
+                      "long": "Independent corroboration is needed; self-endorsement is circular."
+                    }
+                  },
+                  {
+                    "id": "scn-156",
+                    "title": "Fair Because It’s Fair Policy",
+                    "text": "A manager argues a policy is fair because it’s the organization’s fair policy.",
+                    "options": [
+                      { "id": "o1", "text": "Circular reasoning", "is_correct": true, "reason": "Conclusion repeats the premise." },
+                      { "id": "o2", "text": "Red herring", "is_correct": false, "reason": "No subject change occurs." },
+                      { "id": "o3", "text": "Appeal to emotion", "is_correct": false, "reason": "No emotional leverage is central." }
+                    ],
+                    "answers": ["circular_reasoning"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Definition masquerades as proof.",
+                      "long": "Labeling a policy 'fair' doesn’t justify it; reasons must be independent of the label."
+                    }
+                  }, 
+                  { 
+                    "id": "scn-157",
+                    "title": "Rain, Then Record Sales",
+                    "text": "It rained the day a shop ran a big promo. Umbrella sales spiked, so the manager claims the rain caused the spike.",
+                    "options": [
+                      { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Infers causation from mere sequence; the promotion is a confounder." },
+                      { "id": "o2", "text": "Base rate neglect", "is_correct": false, "reason": "No prevalence rates are being ignored." },
+                      { "id": "o3", "text": "Red herring", "is_correct": false, "reason": "No topic diversion; it’s a causal inference error." }
+                    ],
+                    "answers": ["post_hoc_false_cause"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "After ≠ because of.",
+                      "long": "Without controls, you can’t tell if rain or the same-day promotion drove sales. Mere timing doesn’t establish cause."
+                    }
+                  },
+                  {
+                    "id": "scn-158",
+                    "title": "Policy Passed, Crime Rose",
+                    "text": "A city passes a curfew; two months later, crimes are higher. A columnist concludes the curfew increased crime.",
+                    "options": [
+                      { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Treats later increase as caused by the earlier policy without ruling out other factors." },
+                      { "id": "o2", "text": "Slippery slope", "is_correct": false, "reason": "No inevitable chain claim is made." },
+                      { "id": "o3", "text": "Cherry picking", "is_correct": false, "reason": "The issue is causal attribution, not selective time windows." }
+                    ],
+                    "answers": ["post_hoc_false_cause"],
+                    "difficulty": 2,
+                    "explainers": {
+                      "short": "Sequence alone isn’t proof.",
+                      "long": "Crime can vary with seasonality, enforcement, reporting, or unrelated shocks. Causation needs a design that rules out confounds."
+                    }
+                  },
+                  {
+                    "id": "scn-159",
+                    "title": "Update, Then Battery Drain",
+                    "text": "Right after installing an OS update, a user notices worse battery life and concludes the update caused it.",
+                    "options": [
+                      { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Attributes cause based only on order; background reindexing, apps, or settings could explain it." },
+                      { "id": "o2", "text": "Availability heuristic", "is_correct": false, "reason": "It’s not about vivid recall driving probability estimates." },
+                      { "id": "o3", "text": "Circular reasoning", "is_correct": false, "reason": "No premise equals conclusion loop here." }
+                    ],
+                    "answers": ["post_hoc_false_cause"],
+                    "difficulty": 1,
+                    "explainers": {
+                      "short": "Timing bias in tech complaints.",
+                      "long": "Updates often trigger short-term processes (e.g., indexing) that mimic causal harm. Controlled testing is required."
+                    }
+                  },
+                  {
+                    "id": "scn-160",
+                    "title": "Course, Then Promotions",
+                    "text": "Employees took a weekend leadership course; several were later promoted. HR claims the course caused the promotions.",
+                    "options": [
+                      { "id": "o1", "text": "Post hoc (false cause)", "is_correct": true, "reason": "Ignores selection effects and performance trends that could drive both course enrollment and promotions." },
+                      { "id": "o2", "text": "Bandwagon effect", "is_correct": false, "reason": "Not about following the crowd." },
+                      { "id": "o3", "text": "Appeal to authority", "is_correct": false, "reason": "No expert endorsement is used as evidence." }
+                    ],
+                    "answers": ["post_hoc_false_cause"],
+                    "difficulty": 3,
+                    "explainers": {
+                      "short": "Selection & confounds matter.",
+                      "long": "High performers are more likely to take courses and be promoted. Without randomization or strong controls, causation isn’t shown."
+                    }
+                  }
+                ]
+              
+        
+            
+          
+    
+        
+      
+  
+    
+  

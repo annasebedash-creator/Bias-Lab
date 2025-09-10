@@ -1,0 +1,494 @@
+[
+  {
+    "id": "confirmation_bias",
+    "name": "Confirmation Bias",
+    "summary": "Favoring evidence that confirms existing beliefs.",
+    "definition": "The tendency to selectively search for, interpret, and recall information that confirms prior beliefs.",
+    "classic_examples": [
+      "Seeking news that aligns with your political views.",
+      "Remembering only studies that support your diet."
+    ],
+    "contexts": [
+      "Decision making",
+      "Media",
+      "Science communication"
+    ],
+    "related_research": [
+      {
+        "title": "Confirmation Bias (Review)",
+        "author": "Nickerson",
+        "year": 1998,
+        "doi": "10.xxxx/nickerson1998"
+      }
+    ],
+    "difficulty": 1,
+    "tags": [
+      "evidence",
+      "memory",
+      "attention"
+    ],
+    "color": "#b71c1c"
+  },
+  {
+    "id": "availability_heuristic",
+    "name": "Availability Heuristic",
+    "summary": "Judging frequency/likelihood by ease of recall.",
+    "definition": "A mental shortcut that relies on immediate examples that come to mind, distorting probability estimates.",
+    "classic_examples": [
+      "Fearing plane crashes after a widely reported accident.",
+      "Overestimating crime rates after sensational headlines."
+    ],
+    "contexts": [
+      "Risk perception",
+      "Policy",
+      "Health"
+    ],
+    "related_research": [
+      {
+        "title": "Judgment under Uncertainty",
+        "author": "Tversky & Kahneman",
+        "year": 1973,
+        "doi": "10.xxxx/tk1973"
+      }
+    ],
+    "difficulty": 1,
+    "tags": [
+      "heuristics",
+      "probability",
+      "memory"
+    ],
+    "color": "#355070"
+  },
+  {
+    "id": "sunk_cost_fallacy",
+    "name": "Sunk Cost Fallacy",
+    "summary": "Continuing due to past investment rather than future value.",
+    "definition": "Escalation of commitment because resources already spent are irrationally treated as reasons to continue.",
+    "classic_examples": [
+      "Finishing a bad movie because you paid for the ticket.",
+      "Staying in a failing project to 'not waste' prior effort."
+    ],
+    "contexts": [
+      "Management",
+      "Personal finance",
+      "Policy"
+    ],
+    "related_research": [
+      {
+        "title": "Escalation of Commitment",
+        "author": "Staw",
+        "year": 1976,
+        "doi": "10.xxxx/staw1976"
+      }
+    ],
+    "difficulty": 2,
+    "tags": [
+      "commitment",
+      "loss aversion"
+    ],
+    "color": "#6a994e"
+  },
+  {
+    "id": "ad_hominem",
+    "name": "Ad Hominem",
+    "summary": "Attacking the person rather than the argument.",
+    "definition": "A fallacy where rebuttal is directed against a person rather than addressing their argument.",
+    "classic_examples": [
+      "\u2018You\u2019re no scientist, your claim is false.\u2019",
+      "Discrediting a proposal by insulting the proposer."
+    ],
+    "contexts": [
+      "Debate",
+      "Rhetoric",
+      "Online discourse"
+    ],
+    "related_research": [
+      {
+        "title": "Informal Logic",
+        "author": "Walton",
+        "year": 2008,
+        "doi": "10.xxxx/walton2008"
+      }
+    ],
+    "difficulty": 1,
+    "tags": [
+      "argumentation",
+      "rhetoric"
+    ],
+    "color": "#8d99ae"
+  },
+    {
+      "id": "anecdotal_fallacy",
+      "name": "Anecdotal Fallacy",
+      "summary": "Using isolated personal stories as decisive evidence.",
+      "definition": "Reasoning from a small number of personal experiences rather than systematic data.",
+      "classic_examples": [
+        "“My friend smoked and lived to 95, so smoking isn’t harmful.”",
+        "“It snowed this week, so global warming is fake.”"
+      ],
+      "contexts": ["Risk perception", "Policy debate", "Health claims"],
+      "related_research": [
+        {"title": "Judgment under Uncertainty", "author": "Tversky & Kahneman", "year": 1974, "doi": "10.xxxx/tk1974"}
+      ],
+      "difficulty": 1,
+      "tags": ["sampling", "evidence"],
+      "color": "#8c6f56"
+    },
+    {
+      "id": "appeal_to_irrelevant_authority",
+      "name": "Appeal to Irrelevant Authority",
+      "summary": "Citing expertise from the wrong domain.",
+      "definition": "Using testimony from a figure who is not an expert in the relevant field to support a claim.",
+      "classic_examples": [
+        "“This actor says the supplement works, so it must.”",
+        "“A famous entrepreneur endorses a medical treatment.”"
+      ],
+      "contexts": ["Advertising", "Science communication", "Public discourse"],
+      "related_research": [
+        {"title": "Authority and Persuasion", "author": "Cialdini", "year": 2007, "doi": "10.xxxx/cialdini2007"}
+      ],
+      "difficulty": 1,
+      "tags": ["authority", "credibility"],
+      "color": "#6d597a"
+    },
+    {
+      "id": "hot_hand_fallacy",
+      "name": "Hot-Hand Fallacy",
+      "summary": "Believing success streaks in random events will persist.",
+      "definition": "Attributing momentum to outcomes of independent events and expecting the streak to continue.",
+      "classic_examples": [
+        "“I won twice in a row, I’m ‘hot’; I’ll win again.”",
+        "Assuming a stock will keep rising because it rose yesterday."
+      ],
+      "contexts": ["Gambling", "Sports forecasting", "Investing"],
+      "related_research": [
+        {"title": "The Hot Hand in Basketball", "author": "Gilovich, Vallone & Tversky", "year": 1985, "doi": "10.xxxx/gvt1985"}
+      ],
+      "difficulty": 2,
+      "tags": ["randomness", "probability"],
+      "color": "#da627d"
+    },
+    {
+      "id": "base_rate_neglect",
+      "name": "Base Rate Neglect",
+      "summary": "Ignoring prevalence rates when judging probability.",
+      "definition": "Underweighting prior probabilities (base rates) relative to individuating information.",
+      "classic_examples": [
+        "Assuming a positive test means disease without considering false positives.",
+        "Claiming self-driving cars are safer because most crashes involve humans."
+      ],
+      "contexts": ["Diagnostics", "Risk communication", "Data interpretation"],
+      "related_research": [
+        {"title": "Base-Rate Fallacy in Probability Judgments", "author": "Bar-Hillel", "year": 1980, "doi": "10.xxxx/barhillel1980"}
+      ],
+      "difficulty": 2,
+      "tags": ["statistics", "probability"],
+      "color": "#355070"
+    },
+    {
+      "id": "tu_quoque",
+      "name": "Tu Quoque",
+      "summary": "Deflecting criticism by accusing hypocrisy.",
+      "definition": "Responding to an argument by pointing out that the arguer fails to act consistently with the argument.",
+      "classic_examples": [
+        "“You litter too, so your anti-littering point is invalid.”",
+        "“You’ve made mistakes, so your critique doesn’t count.”"
+      ],
+      "contexts": ["Debate", "Politics", "Online discourse"],
+      "related_research": [
+        {"title": "Informal Fallacies", "author": "Walton", "year": 1995, "doi": "10.xxxx/walton1995"}
+      ],
+      "difficulty": 1,
+      "tags": ["argumentation", "rhetoric"],
+      "color": "#6b705c"
+    },
+    {
+      "id": "bandwagon_effect",
+      "name": "Bandwagon Effect",
+      "summary": "Adopting beliefs because many others do.",
+      "definition": "Conforming to popular opinion or behavior as a cue for correctness or desirability.",
+      "classic_examples": [
+        "“Millions use it, so it must be the best.”",
+        "Voting for the leading candidate to be with the majority."
+      ],
+      "contexts": ["Marketing", "Elections", "Social media"],
+      "related_research": [
+        {"title": "Conformity Experiments", "author": "Asch", "year": 1956, "doi": "10.xxxx/asch1956"}
+      ],
+      "difficulty": 1,
+      "tags": ["social influence", "conformity"],
+      "color": "#168aad"
+    },
+    {
+      "id": "straw_man",
+      "name": "Straw Man",
+      "summary": "Misrepresenting an argument to refute a weaker version.",
+      "definition": "Substituting a distorted or oversimplified claim for an opponent’s position to make it easier to attack.",
+      "classic_examples": [
+        "“You want smaller class sizes? So you hate teachers.”",
+        "“They propose dietary guidelines; they want to control our plates.”"
+      ],
+      "contexts": ["Debate", "Policy argument", "Media"],
+      "related_research": [
+        {"title": "Attacking Straw Men", "author": "Talisse & Aikin", "year": 2006, "doi": "10.xxxx/ta2006"}
+      ],
+      "difficulty": 2,
+      "tags": ["argumentation", "logic"],
+      "color": "#b56576"
+    },
+    {
+      "id": "slippery_slope",
+      "name": "Slippery Slope",
+      "summary": "Claiming a small step inevitably leads to catastrophic outcomes.",
+      "definition": "Arguing that an initial move will trigger an inevitable chain of events without establishing the causal necessity.",
+      "classic_examples": [
+        "“Allowing this exception will end the entire system.”",
+        "“Legalizing X will inevitably cause societal collapse.”"
+      ],
+      "contexts": ["Ethics", "Policy debate", "Law"],
+      "related_research": [
+        {"title": "Slippery Slope Arguments", "author": "Walton", "year": 2015, "doi": "10.xxxx/walton2015"}
+      ],
+      "difficulty": 2,
+      "tags": ["causality", "speculation"],
+      "color": "#6a994e"
+    },
+    {
+      "id": "cherry_picking",
+      "name": "Cherry Picking",
+      "summary": "Selecting only favorable data and ignoring the rest.",
+      "definition": "Omitting inconvenient data points to create a misleading impression of support.",
+      "classic_examples": [
+        "Highlighting best months of returns while hiding losses.",
+        "Citing only studies that support the claim."
+      ],
+      "contexts": ["Science reporting", "Finance", "Advocacy"],
+      "related_research": [
+        {"title": "Selective Reporting and Bias", "author": "Ioannidis", "year": 2005, "doi": "10.xxxx/ioannidis2005"}
+      ],
+      "difficulty": 2,
+      "tags": ["evidence", "selection bias"],
+      "color": "#c44536"
+    },
+    {
+      "id": "post_hoc_false_cause",
+      "name": "Post Hoc (False Cause)",
+      "summary": "Assuming causation from mere sequence.",
+      "definition": "Inferring that because B followed A, A caused B, without ruling out confounders.",
+      "classic_examples": [
+        "“The policy started, then crime rose; the policy caused it.”",
+        "“I wore lucky socks and we won.”"
+      ],
+      "contexts": ["Causal inference", "Policy analysis", "Everyday reasoning"],
+      "related_research": [
+        {"title": "Causality", "author": "Pearl", "year": 2009, "doi": "10.xxxx/pearl2009"}
+      ],
+      "difficulty": 2,
+      "tags": ["causality", "confounding"],
+      "color": "#ff7f51"
+    },
+    {
+      "id": "false_dilemma",
+      "name": "False Dilemma",
+      "summary": "Presenting limited options as the only possibilities.",
+      "definition": "Framing an issue as a choice between only two alternatives when more exist.",
+      "classic_examples": [
+        "“You’re either with us or against us.”",
+        "“Adopt this policy or the economy fails.”"
+      ],
+      "contexts": ["Negotiation", "Rhetoric", "Policy debate"],
+      "related_research": [
+        {"title": "Decision Framing", "author": "Tversky & Kahneman", "year": 1981, "doi": "10.xxxx/tk1981"}
+      ],
+      "difficulty": 1,
+      "tags": ["framing", "logic"],
+      "color": "#52796f"
+    },
+    {
+      "id": "circular_reasoning",
+      "name": "Circular Reasoning",
+      "summary": "Using the conclusion as a premise.",
+      "definition": "An argument where the conclusion is assumed in the premises; it restates rather than proves.",
+      "classic_examples": [
+        "“This book is true because it says so.”",
+        "“He’s trustworthy because he says he is honest.”"
+      ],
+      "contexts": ["Debate", "Doctrinal claims", "Advertising"],
+      "related_research": [
+        {"title": "Circularity in Argument", "author": "Johnson", "year": 2000, "doi": "10.xxxx/johnson2000"}
+      ],
+      "difficulty": 1,
+      "tags": ["logic", "argumentation"],
+      "color": "#7a7d7d"
+    },
+    {
+      "id": "appeal_to_emotion",
+      "name": "Appeal to Emotion",
+      "summary": "Manipulating emotions to win an argument.",
+      "definition": "Substituting affective arousal for relevant reasons or evidence.",
+      "classic_examples": [
+        "Sad imagery to sell a policy without data.",
+        "Fear-based messaging to push a product."
+      ],
+      "contexts": ["Marketing", "Political ads", "Advocacy"],
+      "related_research": [
+        {"title": "Affect Heuristic", "author": "Slovic et al.", "year": 2002, "doi": "10.xxxx/slovic2002"}
+      ],
+      "difficulty": 1,
+      "tags": ["affect", "persuasion"],
+      "color": "#b80c09"
+    },
+    {
+      "id": "red_herring",
+      "name": "Red Herring",
+      "summary": "Introducing an irrelevant issue to divert attention.",
+      "definition": "Changing the subject to a tangential matter to distract from the point at hand.",
+      "classic_examples": [
+        "Answering a budget question by talking about patriotism.",
+        "Shifting from product safety to ‘jobs created’ when challenged."
+      ],
+      "contexts": ["Debate", "PR", "Crisis communication"],
+      "related_research": [
+        {"title": "Strategic Maneuvering", "author": "van Eemeren", "year": 2010, "doi": "10.xxxx/vaneemeren2010"}
+      ],
+      "difficulty": 1,
+      "tags": ["argumentation", "relevance"],
+      "color": "#2a9d8f"
+    },
+    {
+      "id": "burden_of_proof",
+      "name": "Burden of Proof",
+      "summary": "Placing proof on the wrong side of the dispute.",
+      "definition": "Demanding opponents disprove a claim that has not been substantiated.",
+      "classic_examples": [
+        "“Prove ghosts don’t exist.”",
+        "“Until you refute it, my claim stands.”"
+      ],
+      "contexts": ["Skepticism", "Pseudoscience", "Legal rhetoric"],
+      "related_research": [
+        {"title": "Shifting the Burden of Proof", "author": "Walton", "year": 1988, "doi": "10.xxxx/walton1988"}
+      ],
+      "difficulty": 1,
+      "tags": ["epistemology", "argument norms"],
+      "color": "#5e548e"
+    },
+    {
+      "id": "appeal_to_tradition",
+      "name": "Appeal to Tradition",
+      "summary": "Arguing something is right because it’s customary.",
+      "definition": "Supporting a claim by asserting it aligns with long-standing practice rather than presenting reasons.",
+      "classic_examples": [
+        "“We’ve always done it this way, so it’s best.”",
+        "Rejecting innovation solely because it’s new."
+      ],
+      "contexts": ["Organizations", "Policy", "Culture"],
+      "related_research": [
+        {"title": "Status Quo Bias", "author": "Samuelson & Zeckhauser", "year": 1988, "doi": "10.xxxx/sz1988"}
+      ],
+      "difficulty": 1,
+      "tags": ["status quo", "norms"],
+      "color": "#7f5539"
+    },
+    {
+      "id": "false_equivalence",
+      "name": "False Equivalence",
+      "summary": "Presenting two unequal things as morally or logically the same.",
+      "definition": "Arguing that two positions are equivalent due to superficial similarities while ignoring relevant differences.",
+      "classic_examples": [
+        "Equating minor misconduct with systemic abuse.",
+        "Treating isolated errors as equal to widespread harm."
+      ],
+      "contexts": ["Media framing", "Ethics", "Debate"],
+      "related_research": [
+        {"title": "Framing and Evaluation", "author": "Entman", "year": 1993, "doi": "10.xxxx/entman1993"}
+      ],
+      "difficulty": 2,
+      "tags": ["comparison", "framing"],
+      "color": "#577590"
+    },
+    {
+      "id": "composition_fallacy",
+      "name": "Composition Fallacy",
+      "summary": "Assuming the whole has the properties of its parts.",
+      "definition": "Inferring that what is true of individuals must be true of the group or aggregate.",
+      "classic_examples": [
+        "“Each player is a star; the team must be unbeatable.”",
+        "“Every component is cheap, so the product is cheap.”"
+      ],
+      "contexts": ["Economics", "Team analysis", "Design"],
+      "related_research": [
+        {"title": "Fallacies of Composition", "author": "Hempel", "year": 1949, "doi": "10.xxxx/hempel1949"}
+      ],
+      "difficulty": 2,
+      "tags": ["aggregation", "logic"],
+      "color": "#bc6c25"
+    },
+    {
+      "id": "division_fallacy",
+      "name": "Division Fallacy",
+      "summary": "Assuming parts have the properties of the whole.",
+      "definition": "Inferring that what is true of a group or aggregate must be true of its individual members.",
+      "classic_examples": [
+        "“The company is profitable; every team must be thriving.”",
+        "“The average is high; each case must be high.”"
+      ],
+      "contexts": ["Statistics", "Team dynamics", "Policy"],
+      "related_research": [
+        {"title": "Ecological Fallacy", "author": "Robinson", "year": 1950, "doi": "10.xxxx/robinson1950"}
+      ],
+      "difficulty": 2,
+      "tags": ["disaggregation", "logic"],
+      "color": "#99582a"
+    },
+    {
+      "id": "equivocation",
+      "name": "Equivocation",
+      "summary": "Using a key term with multiple meanings within the same argument.",
+      "definition": "Shifting meanings of a term mid-argument to create an illusion of logical connection.",
+      "classic_examples": [
+        "“Light things aren’t dark; feathers are light; feathers aren’t dark.”",
+        "Using ‘theory’ in the casual sense to dismiss a scientific theory."
+      ],
+      "contexts": ["Semantics", "Debate", "Everyday talk"],
+      "related_research": [
+        {"title": "Ambiguity and Logic", "author": "Copi", "year": 1992, "doi": "10.xxxx/copi1992"}
+      ],
+      "difficulty": 2,
+      "tags": ["ambiguity", "semantics"],
+      "color": "#386641"
+    },
+    {
+      "id": "gambler_fallacy",
+      "name": "Gambler’s Fallacy",
+      "summary": "Believing a deviation will be corrected in the short run.",
+      "definition": "Expecting an opposite result because the opposite has not occurred recently in independent events.",
+      "classic_examples": [
+        "“After five reds, black is due.”",
+        "Expecting a coin to land heads because it has been tails several times."
+      ],
+      "contexts": ["Gambling", "Forecasting", "Everyday chance"],
+      "related_research": [
+        {"title": "The Monte Carlo Fallacy", "author": "Tversky & Kahneman", "year": 1971, "doi": "10.xxxx/tk1971"}
+      ],
+      "difficulty": 2,
+      "tags": ["randomness", "probability"],
+      "color": "#e76f51"
+    },
+    {
+      "id": "survivorship_bias",
+      "name": "Survivorship Bias",
+      "summary": "Focusing on successful cases while ignoring failures.",
+      "definition": "Drawing conclusions from visible successes without accounting for the unseen non-survivors.",
+      "classic_examples": [
+        "“These founders dropped out and succeeded; school is useless.”",
+        "Analyzing only winning funds to claim a strategy works."
+      ],
+      "contexts": ["Business", "Investing", "History"],
+      "related_research": [
+        {"title": "Selection Bias in Performance Studies", "author": "Malkiel", "year": 1995, "doi": "10.xxxx/malkiel1995"}
+      ],
+      "difficulty": 2,
+      "tags": ["selection bias", "evidence"],
+      "color": "#3d405b"
+    }
+  ]  

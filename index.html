@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Bias & Fallacy Lab — Interactive Learning</title>
+  <meta name="description" content="An epic, research‑minded, gamified lab to master cognitive biases & logical fallacies."/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <meta name="theme-color" content="#0b0b0c">
+</head>
+<body class="theme-dark">
+  <a class="skip-link" href="#app">Skip to main content</a>
+
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/landing" aria-label="Bias Lab Home">
+        <svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18" fill="currentColor"/></svg>
+        <span class="brand-text">Bias & Fallacy Lab</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#/dashboard">Dashboard</a>
+        <a href="#/library">Library</a>
+        <a href="#/practice">Practice</a>
+        <a href="#/profile">Profile</a>
+      </nav>
+      <div class="header-actions">
+        <button id="audio-toggle" class="btn ghost" aria-pressed="false" title="Toggle sound">🔈</button>
+        <button id="theme-toggle" class="btn ghost" aria-pressed="true" title="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Router outlet -->
+  <main id="app" class="container" tabindex="-1" aria-live="polite"></main>
+
+  <!-- Cinematic background -->
+  <div class="bg-parallax" aria-hidden="true">
+    <div class="bg-layer l1"></div>
+    <div class="bg-layer l2"></div>
+    <div class="bg-layer l3"></div>
+  </div>
+
+  <!-- Modal root -->
+  <div id="modal-root" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card" role="document">
+      <button class="modal-close btn ghost" id="modal-close" aria-label="Close">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Inline JSON fallback (used if /data/*.json fetch fails) -->
+  <script type="application/json" id="fallback-fallacies">
+  [
+    {
+      "id":"confirmation_bias",
+      "name":"Confirmation Bias",
+      "summary":"Favoring evidence that confirms existing beliefs.",
+      "definition":"The tendency to selectively search for, interpret, and recall information that confirms prior beliefs.",
+      "classic_examples":[
+        "Seeking news that aligns with your political views.",
+        "Remembering only studies that support your diet."
+      ],
+      "contexts":["Decision making","Media","Science communication"],
+      "related_research":[
+        {"title":"Confirmation Bias (Review)","author":"Nickerson","year":1998,"doi":"10.xxxx/nickerson1998"}
+      ],
+      "difficulty":1,
+      "tags":["evidence","memory","attention"],
+      "color":"#b71c1c"
+    },
+    {
+      "id":"availability_heuristic",
+      "name":"Availability Heuristic",
+      "summary":"Judging frequency/likelihood by ease of recall.",
+      "definition":"A mental shortcut that relies on immediate examples that come to mind, distorting probability estimates.",
+      "classic_examples":[
+        "Fearing plane crashes after a widely reported accident.",
+        "Overestimating crime rates after sensational headlines."
+      ],
+      "contexts":["Risk perception","Policy","Health"],
+      "related_research":[
+        {"title":"Judgment under Uncertainty","author":"Tversky & Kahneman","year":1973,"doi":"10.xxxx/tk1973"}
+      ],
+      "difficulty":1,
+      "tags":["heuristics","probability","memory"],
+      "color":"#355070"
+    },
+    {
+      "id":"sunk_cost_fallacy",
+      "name":"Sunk Cost Fallacy",
+      "summary":"Continuing due to past investment rather than future value.",
+      "definition":"Escalation of commitment because resources already spent are irrationally treated as reasons to continue.",
+      "classic_examples":[
+        "Finishing a bad movie because you paid for the ticket.",
+        "Staying in a failing project to 'not waste' prior effort."
+      ],
+      "contexts":["Management","Personal finance","Policy"],
+      "related_research":[
+        {"title":"Escalation of Commitment","author":"Staw","year":1976,"doi":"10.xxxx/staw1976"}
+      ],
+      "difficulty":2,
+      "tags":["commitment","loss aversion"],
+      "color":"#6a994e"
+    },
+    {
+      "id":"ad_hominem",
+      "name":"Ad Hominem",
+      "summary":"Attacking the person rather than the argument.",
+      "definition":"A fallacy where rebuttal is directed against a person rather than addressing their argument.",
+      "classic_examples":[
+        "‘You’re no scientist, your claim is false.’",
+        "Discrediting a proposal by insulting the proposer."
+      ],
+      "contexts":["Debate","Rhetoric","Online discourse"],
+      "related_research":[
+        {"title":"Informal Logic","author":"Walton","year":2008,"doi":"10.xxxx/walton2008"}
+      ],
+      "difficulty":1,
+      "tags":["argumentation","rhetoric"],
+      "color":"#8d99ae"
+    }
+  ]
+  </script>
+
+  <script type="application/json" id="fallback-scenarios">
+  [
+    {
+      "id":"scn-001",
+      "title":"The Headlines Trap",
+      "text":"After a week of heavy media coverage about shark attacks, you cancel a beach trip despite statistics showing low risk.",
+      "options":[
+        {"id":"o1","text":"Availability heuristic","is_correct":true,"reason":"Recent vivid coverage skews risk perception."},
+        {"id":"o2","text":"Ad hominem","is_correct":false,"reason":"No personal attack involved."}
+      ],
+      "answers":["availability_heuristic"],
+      "difficulty":1,
+      "explainers":{
+        "short":"Vividness & recency distort probability judgments.",
+        "long":"Media salience increases accessibility in memory, which people misuse as a proxy for frequency."
+      }
+    },
+    {
+      "id":"scn-002",
+      "title":"The Stubborn Project",
+      "text":"A team keeps funding a failing app because they’ve already spent $200k building it.",
+      "options":[
+        {"id":"o1","text":"Sunk cost fallacy","is_correct":true,"reason":"Past costs are irrecoverable and shouldn’t justify continuation."},
+        {"id":"o2","text":"Confirmation bias","is_correct":false,"reason":"Though it can co-occur, the core issue is sunk cost."}
+      ],
+      "answers":["sunk_cost_fallacy"],
+      "difficulty":2,
+      "explainers":{
+        "short":"Prior investment biases continuation decisions.",
+        "long":"Escalation of commitment is robust across lab and field; rational choice should ignore sunk costs."
+      }
+    },
+    {
+      "id":"scn-003",
+      "title":"Comment Section ‘Debate’",
+      "text":"Someone replies to a climate paper by calling the author a 'fraud' instead of addressing the methods.",
+      "options":[
+        {"id":"o1","text":"Ad hominem","is_correct":true,"reason":"Attack targets the person, not the argument."},
+        {"id":"o2","text":"Availability heuristic","is_correct":false,"reason":"Not about recall or salience."}
+      ],
+      "answers":["ad_hominem"],
+      "difficulty":1,
+      "explainers":{
+        "short":"Person-focused attack ≠ argument refutation.",
+        "long":"Ad hominem derails argument quality and is fallacious when used in place of relevant criticism."
+      }
+    },
+    {
+      "id":"scn-004",
+      "title":"Reading What You Already Believe",
+      "text":"You only subscribe to newsletters that match your policy views and dismiss others as biased.",
+      "options":[
+        {"id":"o1","text":"Confirmation bias","is_correct":true,"reason":"Selective exposure to confirming information."},
+        {"id":"o2","text":"Sunk cost fallacy","is_correct":false,"reason":"No past-investment logic present."}
+      ],
+      "answers":["confirmation_bias"],
+      "difficulty":1,
+      "explainers":{
+        "short":"Selective exposure reinforces priors.",
+        "long":"People seek attitude-consistent information and counter-argue disconfirming evidence."
+      }
+    }
+  ]
+  </script>
+
+  <!-- App scripts -->
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
